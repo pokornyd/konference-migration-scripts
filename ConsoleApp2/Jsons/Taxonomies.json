@@ -1,0 +1,26 @@
+{
+  "last_modified": "2019-11-07T08:26:48.331558Z",
+  "id": "cbb4f9de-3ed1-496d-bcfe-75846a13aed4",
+  "name": "Location",
+  "codename": "location",
+  "terms": [
+    {
+      "id": "09bc06f0-d69c-4a2d-9917-f5ff96295e00",
+      "name": "Denver",
+      "codename": "denver",
+      "terms": []
+    },
+    {
+      "id": "f167abff-5d8c-40d7-81ab-4a186d918de4",
+      "name": "Melbourne",
+      "codename": "melbourne",
+      "terms": []
+    },
+    {
+      "id": "ef40adf2-6197-462d-82e9-1e0b1133cb76",
+      "name": "Brno",
+      "codename": "brno",
+      "terms": []
+    }
+  ]
+}

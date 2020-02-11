@@ -1,0 +1,29 @@
+{
+    "folders": [
+      {
+        "external_id": "denver_folder",
+        "name": "Denver",
+        "folders": []
+      },
+        {
+            "external_id": "melbourne_folder",
+            "name": "Melbourne",
+            "folders": []
+        },
+        {
+            "external_id": "speakers_folder",
+            "name": "Speakers",
+            "folders": []
+        },
+        {
+            "external_id": "sponsors_folder",
+            "name": "Sponsors",
+            "folders": []
+        },
+        {
+            "external_id": "brno_folder",
+            "name": "Brno",
+            "folders": []
+        }
+    ]
+}

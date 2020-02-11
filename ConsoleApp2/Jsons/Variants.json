@@ -1,0 +1,5171 @@
+﻿{
+  "variants": [
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Opening Keynote "
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>Let's take a look at the state of the market and where Kentico is headed ⎯ its vision, mission, strategy, and brand ⎯ as well as updates to our roadmaps for Kentico EMS and Kentico Kontent.</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      },
+      "item": {
+        "codename": "denver_opening_keynote_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T19:58:05.074409Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Why Should I Structure My Content?"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>What is structured content and how can structuring your content benefit you? Find out in this short video.</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "why_should_i_structure_my_content_"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-01T18:00:19.6065575Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Connecting the Dots in Your Digital Experience Stack"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>Whether you need to send your content for automatic translation, fill in missing product data, or integrate with other systems in your stack, there are APIs and webhooks available for you. See how to use them to get the full potential out of headless CMS.</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "connecting_the_dots_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-06T18:54:34.1076158Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "From the Ground Up: Kentico 12 MVC Design Patterns"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>Since November 2018, two worlds have been colliding to great effect — ASP.NET MVC and Kentico CMS. Now, Kentico developers have even more ability to customize the way that content, stored and organized in Kentico CMS, is delivered to website visitors. With this new room for customization comes an opportunity to implement powerful, elegant, and forward thinking patterns, and best practices. In this talk I will present some important design patterns and practices you can implement in your Kentico 12 MVC applications, starting with modern .NET tools, code organization, designing for automated testability, and leveraging the power of MVC and Web API.</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "from_the_ground_up_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-06T19:46:01.0881749Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Welcome to the World of Integrations"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>Where does Kentico fit in the modern world of integrations? What solutions can be combined to create that ultimate digital experience? If you're looking to integrate Kentico Kontent with other SaaS products on the market quickly, then join this talk with case studies and demo.</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "world_of_integrations_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-06T19:50:24.5455055Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Patterson Companies: Implementing Kentico Headless for an Enterprise-Level Customer"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>Large enterprises have established infrastructure, architectures, and talent investments, which create obstacles to digital transformation. In this case study for a Fortune 500 company, you’ll learn the challenges and processes that led to choosing Kentico, and how they created a headless architecture to leverage Kentico as a content-as-a-service and marketing platform.</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "implementing_kentico_headless_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T18:44:18.955921Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": ".NET Standard and Core in Kentico"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>Where is the Kentico platform headed and what can you expect to see in our next major release? What are the plans for future compatibility with .NET Standard and why is it crucial for digital businesses to use technologies compatible with .NET Core?</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "_net_standard_and_core_in_kentico_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:07:55.441488Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "The True Power of Headless CMS Is in Its Marriage With IoT"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>The true power and ROI potential of using a headless CMS are unleashed when its collaborative content management capabilities are combined with an IoT system – bringing the omnichannel scenario into practice. In our practical showcase, we will introduce how content stored in Kentico Kontent can easily be made location-aware and can help boost engagement and spending on the customer side, while providing analytics data on the client side. See the power that the combination of UWB technology (hotly rumored to be part of the next iPhone release) and Kentico Kontent brings.</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      },
+      "item": {
+        "codename": "the_true_power_of_headless_cms_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:25:05.3986899Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "  Kentico + Azure DevOps: Streamlining Your Kentico Development and Deployment Process"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>Learn how to adopt DevOps practices and implementing CI/CD processes to streamline development and deployment of your Kentico projects using Kentico CI, Azure DevOps, Azure App Services, Azure SQL.</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      },
+      "item": {
+        "codename": "kentico___azure_devops_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:39:35.4536892Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Hacking Humans"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>description</p>"
+        },
+        {
+          "element": {
+            "codename": "materials"
+          },
+          "value": []
+        }
+      ],
+      "workflow_step": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      },
+      "item": {
+        "codename": "hacking_humans_presentation"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T15:22:07.8864406Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Petr"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Palas"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "CEO"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p>CEO at Kentico</p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "pp001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "petr_palas"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:15:02.2181071Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Aaron"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Collier"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Senior Education Specialist"
+        },
+        {
+          "components": [
+            {
+              "id": "678a94fe-4a2e-4839-ab53-ebc6226d5e0b",
+              "type": {
+                "id": "3ada8bba-6c9a-4479-a678-f55334500d84"
+              },
+              "elements": [
+                {
+                  "element": {
+                    "id": "c8242fb1-1148-41dc-9d1a-29f370a717c1"
+                  },
+                  "value": "https://twitter.com/DeCubaNorwich/status/879265763978358784"
+                },
+                {
+                  "element": {
+                    "id": "5fbdd60c-d42e-466b-a652-39af0553d88e"
+                  },
+                  "value": [
+                    {
+                      "id": "be78a8a6-66b1-46d1-9d59-03d2f22f2e06"
+                    }
+                  ]
+                },
+                {
+                  "element": {
+                    "id": "43b3b0af-f53b-46b2-b295-9e0497e246b2"
+                  },
+                  "value": [
+                    {
+                      "id": "e68ec962-c0f1-4800-9702-741df73bf6e9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p>A powerhouse on the Customer Education Team.</p>\n<p><br/></p>\n<p>Twitter:</p>\n<object type=\"application/kenticocloud\" data-type=\"component\" data-id=\"678a94fe-4a2e-4839-ab53-ebc6226d5e0b\"></object>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "ac001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "aaron_collier"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T14:17:00.1789673Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Lukas"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Turek"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Product Manager"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "lt001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "lukas_turek"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:13:43.0293256Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Michal"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Kadak"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Product Owner - Platform"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "mk001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "michal_kadak"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:14:39.875711Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "David"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Komarek"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Product Owner - Content"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "dk001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "david_komarek"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:13:30.6968545Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Martin"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Michalik"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Product Manager"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "mm001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "martin_michalik"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:14:20.4488661Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Chris"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Jennings"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Integrations Lead"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "cj001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "chris_jennings"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:13:13.0129772Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Vojtech"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Boril"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Product Growth Manager"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "vb001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "vojtech_boril"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:15:13.8939637Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Marek"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Fesar"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Principal Technical Leader"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "mf001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "marek_fesar"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:13:55.0805839Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Michael"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Andrews"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Content Strategy Evangelist"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "ma001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "michael_andrews"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:14:29.7521853Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Martin"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Danko"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Senior Customer Success Manager"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "md001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "martin_danko"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:14:11.7856092Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Bart"
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Omlo"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "VP Sales EMEA"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "bo001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "bart_omlo"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:12:59.5299397Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "first_name"
+          },
+          "value": "Ondrej "
+        },
+        {
+          "element": {
+            "codename": "last_name"
+          },
+          "value": "Polesny"
+        },
+        {
+          "element": {
+            "codename": "job_title"
+          },
+          "value": "Developer Evangelist"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "bio"
+          },
+          "value": "<p><br/></p>"
+        },
+        {
+          "element": {
+            "codename": "photo"
+          },
+          "value": [
+            {
+              "external_id": "asset_speakericon"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speaker_id"
+          },
+          "value": "op001"
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "ondrej_polesny"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-09T15:14:50.1593474Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Grand Hyatt Denver Downtown"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "address"
+          },
+          "value": "<p>1750 Welton St, Denver, CO 80202</p>"
+        },
+        {
+          "element": {
+            "codename": "image"
+          },
+          "value": [
+            {
+              "external_id": "asset_denvervenue"
+            }
+          ]
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>Here is a description of the beautiful venue.</p>"
+        },
+        {
+          "element": {
+            "codename": "link"
+          },
+          "value": "http://kentico.com"
+        },
+        {
+          "element": {
+            "codename": "map_source"
+          },
+          "value": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12270.939667900791!2d-104.988813!3d39.745605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78d7013ee7e9%3A0xdc7fa4ab1618298e!2s1750%20Welton%20St%2C%20Denver%2C%20CO%2080202!5e0!3m2!1sen!2sus!4v1571768050564!5m2!1sen!2sus"
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "grand_hyatt_denver_downtown"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-12-03T17:59:31.0506309Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Courtyard by Marriott Brno"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "address"
+          },
+          "value": "<p>Holandská 12, Brno – střed</p>"
+        },
+        {
+          "element": {
+            "codename": "image"
+          },
+          "value": [
+            {
+              "external_id": "asset_brnovenue"
+            }
+          ]
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>wow much fancy</p>"
+        },
+        {
+          "element": {
+            "codename": "link"
+          },
+          "value": "https://www.marriott.com/hotels/travel/brqcy-courtyard-brno/"
+        },
+        {
+          "element": {
+            "codename": "map_source"
+          },
+          "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.947400326195!2d16.6061857953554!3d49.18258471675091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471295aa49ef065b%3A0xce58732130551370!2sCourtyard%20by%20Marriott%20Brno!5e0!3m2!1sen!2scz!4v1573116119633!5m2!1sen!2scz"
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "courtyard_by_marriott_brno"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T08:42:41.9611135Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Star Room under the Melbourne Star Observation Wheel"
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "address"
+          },
+          "value": "<p>101 Waterfront Way, Docklands VIC 3008, Australia</p>"
+        },
+        {
+          "element": {
+            "codename": "image"
+          },
+          "value": [
+            {
+              "external_id": "asset_melbournevenue"
+            }
+          ]
+        },
+        {
+          "components": [],
+          "element": {
+            "codename": "description"
+          },
+          "value": "<p>The conference will take place in the Star Room under the Melbourne Star Observation Wheel.&nbsp;</p>"
+        },
+        {
+          "element": {
+            "codename": "link"
+          },
+          "value": "https://www.melbournestar.com/"
+        },
+        {
+          "element": {
+            "codename": "map_source"
+          },
+          "value": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12608.276130684779!2d144.937525!3d-37.811852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d68417f65e5%3A0x49ba70dc877baa1a!2s101%20Waterfront%20Way%2C%20Docklands%20VIC%203008%2C%20Australia!5e0!3m2!1sen!2sus!4v1574167617741!5m2!1sen!2sus"
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "star_room_under_the_melbourne_star"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-19T12:47:56.2903635Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Opening Keynote"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T09:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T10:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "petr_palas"
+            },
+            {
+              "codename": "michal_kadak"
+            },
+            {
+              "codename": "david_komarek"
+            },
+            {
+              "codename": "martin_michalik"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "denver_opening_keynote_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "item": {
+        "codename": "denver_opening_keynote"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T18:52:08.9236369Z",
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      }
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "From the Ground Up: Kentico 12 MVC Design Patterns"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-27T10:50:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-27T11:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "colorado_ballroom_a"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "christopher_jennings"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "from_the_ground_up_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      },
+      "item": {
+        "codename": "from_the_ground_up__kentico_12_mvc_design_patterns"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-26T19:14:23.4725562Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Registration"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-27T08:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-27T09:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "colorado_foyer"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "registration"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-01T13:37:11.0669788Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Coffee Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-27T10:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-27T10:50:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "colorado_foyer"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "coffee_break"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-01T13:36:25.9360698Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Welcome to the World of Integrations"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-27T10:50:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-27T11:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "martin_michalik"
+            },
+            {
+              "codename": "vojtech_boril"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "world_of_integrations_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "welcome_to_the_world_of_integrations"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-06T19:49:35.2774599Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Why Should I Structure My Content?"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T13:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T14:05:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "aaron_collier"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "why_should_i_structure_my_content_"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": [
+            {
+              "codename": "content_modeling_video"
+            }
+          ]
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "kontent_modeling"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-01T18:50:32.635037Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Connecting the Dots in Your Digital Experience Stack"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T11:40:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T12:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "colorado_ballroom_a"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "lukas_turek"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "connecting_the_dots_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "connecting_the_dots"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-06T18:58:31.1108761Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Connecting the Dots in Your Digital Experience Stack"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-16T11:40:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-16T12:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "colorado_ballroom_a"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "lukas_turek"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "connecting_the_dots_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "connecting_the_dots_aa101d5"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-06T19:52:31.2507476Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Using Kentico 12 MVC with Azure DevOps"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-18T10:45:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-18T11:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "using_kentico_12_mvc_with_azure_devops"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T09:07:06.4025048Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Registration"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-18T08:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-18T09:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "using_kentico_12_mvc_with_azure_devops"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T09:14:54.6540872Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Brno Opening Keynote"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-18T09:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-18T10:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "brno_opening_keynote"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T09:24:28.782021Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Coffee Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-18T10:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-18T10:45:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "coffee_break_3e2ce8a"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T09:41:57.2707886Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Connecting the Dots in Your Digital Experience Stack"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-18T11:40:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-18T12:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "connecting_the_dots_5f1e0ea"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T09:45:23.111905Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Welcome to the World of Integrations"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-18T11:40:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-18T12:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "vojtech_boril"
+            },
+            {
+              "codename": "martin_michalik"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "world_of_integrations_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "welcome_to_the_world_of_integrations_3c97515"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T11:35:47.0742855Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Lunch"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-18T12:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-18T13:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "lunch"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T11:09:15.1998021Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Architecture and Setup of a Kentico 12 MVC Application"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-18T13:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-18T14:05:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "architecture_and_setup_of_k12_mvc_application"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T11:12:22.8195958Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Patterson Companies: Implementing Kentico Headless for an Enterprise-Level Customer"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-16T11:40:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-16T12:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_foyer"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "christopher_jennings"
+            },
+            {
+              "codename": "aaron_collier"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "implementing_kentico_headless_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "implementing_kentico_headless"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T18:46:43.0747581Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Lunch"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-16T12:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-16T13:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "colorado_ballroom_b"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "lunch_88c6f3f"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T18:47:17.1018911Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Breakfast"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T08:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T09:55:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "capitol_peak_a__pinnacle_club_"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "breakfast"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:01:52.3726104Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": ".NET Standard and Core in Kentico"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T09:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T09:55:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "capitol_peak_b__pinnacle_club_"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "marek_fesar"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "_net_standard_and_core_in_kentico_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "_net_standard_and_core_in_kentico_724314b"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:08:27.2015786Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "The True Power of Headless CMS Is in Its Marriage With IoT"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T09:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T09:55:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "christopher_jennings"
+            },
+            {
+              "codename": "martin_michalik"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "the_true_power_of_headless_cms_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "the_true_power_of_headless_cms"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:15:35.3004023Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T09:55:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T10:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "break_368c3a9"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:26:45.7916981Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "  Kentico + Azure DevOps: Streamlining Your Kentico Development and Deployment Process"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T10:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T10:55:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "capitol_peak_b__pinnacle_club_"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "marek_fesar"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "id": "8607a07a-bbba-41c8-9d4e-3e4226b0048d"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "kentico___azure_devops"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:40:58.1181828Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": " Improve Your Content Strategy: Manage and Leverage the 6 Phases of the Content Lifecycle"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T10:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T10:55:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "id": "322064b7-07a4-4a0a-aa6b-abe9fd52174d"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "improve_your_content_strategy"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:41:06.024794Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Coffee Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T10:55:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T11:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_foyer"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "coffee_break_8ed64ca"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:41:54.5393947Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Roudtable Discussion: AI and Machine Learning"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T11:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T12:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "david_komarek"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "roundtable_discussion__ai_and_machine_learning_denver"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:45:09.1063395Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Roudtable Discussion: Building Integrations with Kentico Kontent"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T11:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T12:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "lukas_turek"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "roundtable_discussion__building_integrations_denver"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:45:58.9520848Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Roudtable Discussion: EMS + Kentico Kontent"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T11:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T12:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "michal_kadak"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "roundtable_discussion__ems___kentico_kontent_denver"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:46:42.0364598Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Roudtable Discussion: Getting your Project Started with K12 and MVC"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T11:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T12:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "aspen_ballroom"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "christopher_jennings"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "roudtable_discussion__getting_your_project_started"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:47:43.6703763Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Lunch"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-11-17T12:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-11-17T13:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": [
+            {
+              "codename": "capitol_peak_a__pinnacle_club_"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "denver"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "lunch_aac9293"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-07T20:50:16.0901812Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": ".NET Standard and Core in Kentico"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-19T09:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-19T10:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "marek_fesar"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "_net_standard_and_core_in_kentico_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "_net_standard_and_core_in_kentico"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T11:29:02.9085712Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-19T10:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-19T10:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "break"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T10:52:37.8180691Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Portal Engine vs MVC, What's Different?"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-19T10:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-19T10:50:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "portal_engine_vs_mvc"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T10:47:57.9609816Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Roundtable Discussion: AI and Machine Learning"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-19T11:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-19T12:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "ai_and_machine_learning"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T10:54:10.6977711Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Roundtable Discussion: EMS + Kentico Kontent"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-09-19T11:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-09-19T12:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "brno"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "ems___kentico_kontent"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T10:58:52.438498Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Registration"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T08:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T09:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "registration_ea0a5cb"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T13:52:30.3714473Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Melbourne Opening Keynote"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T09:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T10:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "martin_michalik"
+            },
+            {
+              "codename": "david_komarek"
+            },
+            {
+              "codename": "michal_kadak"
+            },
+            {
+              "codename": "petr_palas"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "denver_opening_keynote_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "melbourne_opening_keynote"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T14:20:39.0006022Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T10:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T10:40:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "break_493305a"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T14:45:24.5024354Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Connecting the Dots in Your Digital Experience Stack"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T10:40:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T10:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "lukas_turek"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "connecting_the_dots_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "connecting_the_dots_d9f57e0"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T15:09:00.5419743Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T11:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T11:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "break_42dc8dd"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T15:10:13.5076893Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Welcome to the World of Integrations"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T10:40:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T11:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "martin_michalik"
+            },
+            {
+              "codename": "bart_omlo"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": [
+            {
+              "codename": "world_of_integrations_presentation"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "welcome_to_the_world_of_integrations_caf4ff9"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T15:15:28.7954754Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T11:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T11:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "break_2736bae"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T15:17:14.398054Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Kentico + Azure DevOps:  Streamlining Your Kentico Development and Deployment Process"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T11:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T12:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "petr_palas"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "kentico_azure_devops"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T15:19:43.7683484Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Hacking Humans"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T11:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T12:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "petr_palas"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "hacking_humans"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T15:23:19.670279Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Lunch"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-16T12:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-16T13:15:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "lunch_4328157"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-12T15:24:25.1656348Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": ".NET Standard and Core in Kentico"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-17T09:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-17T10:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "marek_fesar"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "_net_standard_and_core_in_kentico_3bb9920"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-18T08:26:36.6564384Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Leveraging the Power of K12 to Deliver the Child Safety Practice Manual"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-17T09:30:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-17T10:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "aaron_collier"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "leveraging_the_power_of_k12_to_deliver_the_child"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-18T08:30:33.7575093Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Break"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-17T10:10:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-17T10:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "break_66ea7a3"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-18T08:31:36.1994574Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Visual Regression Testing with Kentico Kontent and Percy"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-17T10:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-17T11:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "bart_omlo"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "visual_regression_testing"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-18T08:32:51.7052422Z"
+    },
+    {
+      "elements": [
+        {
+          "element": {
+            "codename": "name"
+          },
+          "value": "Kentico at Scale"
+        },
+        {
+          "element": {
+            "codename": "start_time"
+          },
+          "value": "2019-10-17T10:20:00Z"
+        },
+        {
+          "element": {
+            "codename": "end_time"
+          },
+          "value": "2019-10-17T11:00:00Z"
+        },
+        {
+          "element": {
+            "codename": "room"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "speakers"
+          },
+          "value": [
+            {
+              "codename": "martin_michalik"
+            }
+          ]
+        },
+        {
+          "element": {
+            "codename": "presentation"
+          },
+          "value": []
+        },
+        {
+          "element": {
+            "codename": "recording"
+          },
+          "value": []
+        },
+        {
+          "mode": "autogenerated",
+          "element": {
+            "codename": "url_slug"
+          }
+        },
+        {
+          "element": {
+            "codename": "location"
+          },
+          "value": [
+            {
+              "codename": "melbourne"
+            }
+          ]
+        }
+      ],
+      "workflow_step": {
+        "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+      },
+      "item": {
+        "codename": "kentico_at_scale_996fbd8"
+      },
+      "language": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "last_modified": "2019-11-18T08:34:27.8614732Z"
+    }
+  ],
+  "pagination": {
+    "continuation_token": null,
+    "next_page": null
+  }
+}

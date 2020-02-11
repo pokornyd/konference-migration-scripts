@@ -1,0 +1,11 @@
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.0\conference-migration-full.deps.json
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.0\conference-migration-full.runtimeconfig.json
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.0\conference-migration-full.runtimeconfig.dev.json
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.0\conference-migration-full.dll
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.0\conference-migration-full.pdb
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.0\conference-migration-full.csprojAssemblyReference.cache
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.0\conference-migration-full.csproj.CoreCompileInputs.cache
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.0\conference-migration-full.AssemblyInfoInputs.cache
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.0\conference-migration-full.AssemblyInfo.cs
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.0\conference-migration-full.dll
+C:\Users\DanielP\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.0\conference-migration-full.pdb

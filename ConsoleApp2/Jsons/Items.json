@@ -1,0 +1,1138 @@
+{
+  "items": [
+    {
+      "id": "f7e7c4e2-c880-4e85-bf14-ea14a03f4f7a",
+      "name": "Home Denver",
+      "codename": "home_denver",
+      "type": {
+        "codename": "home"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-29T15:08:45.3940404Z"
+    },
+    {
+      "id": "d30dd93a-267f-41bb-b603-7fefb545cd74",
+      "name": "Grand Hyatt Denver Downtown",
+      "codename": "grand_hyatt_denver_downtown",
+      "type": {
+        "codename": "venue"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-01T14:09:10.3468366Z"
+    },
+    {
+      "id": "eb4e7b0b-4bbb-46d0-9b12-59ac1bd0d4e8",
+      "name": "Kentico Software",
+      "codename": "kentico_software",
+      "type": {
+        "codename": "sponsor"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-22T18:15:22.9195886Z"
+    },
+    {
+      "id": "4b0ec408-4bbe-49c2-9efa-bbd4815e5cf0",
+      "name": "Kentico Software (copy)",
+      "codename": "kentico_software__copy_",
+      "type": {
+        "codename": "sponsor"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-23T13:36:15.0618098Z"
+    },
+    {
+      "id": "ac5f5ad4-3e1b-4965-a2b3-84b997486be7",
+      "name": "Kentico Software (copy) (copy)",
+      "codename": "kentico_software__copy___copy_",
+      "type": {
+        "codename": "sponsor"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-23T13:36:22.0046875Z"
+    },
+    {
+      "id": "63d221f7-bb4d-4caa-aad0-7b3a2b1ffeb2",
+      "name": "Denver Opening Keynote",
+      "codename": "denver_opening_keynote",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-01T14:07:05.265743Z"
+    },
+    {
+      "id": "b86de196-8afb-4784-b593-8390ad9f7d6b",
+      "name": "Colorado Foyer",
+      "codename": "colorado_foyer",
+      "type": {
+        "codename": "room"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-24T12:04:05.9025067Z"
+    },
+    {
+      "id": "b79745fb-8792-471b-a3fd-abc8cfdd3368",
+      "name": "Denver Day 1",
+      "codename": "denver_day_1",
+      "type": {
+        "codename": "agenda"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-24T12:09:07.9819104Z"
+    },
+    {
+      "id": "18a0157e-767e-4d0b-a4c0-6a15bfef41d6",
+      "name": "From the Ground Up: Kentico 12 MVC Design Patterns",
+      "codename": "from_the_ground_up__kentico_12_mvc_design_patterns",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-24T12:11:01.4269012Z"
+    },
+    {
+      "id": "a66d7af6-2194-4a27-a7ee-62dc1272cb02",
+      "name": "Registration",
+      "codename": "registration",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-24T12:17:16.1255418Z"
+    },
+    {
+      "id": "4676404e-d949-4f95-a80a-6fc16cc0e550",
+      "name": "Coffee Break",
+      "codename": "coffee_break",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-24T12:18:07.3260377Z"
+    },
+    {
+      "id": "33e9e95a-084a-4d2c-99af-f4d65d773d77",
+      "name": "Welcome to the World of Integrations",
+      "codename": "welcome_to_the_world_of_integrations",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-24T12:19:03.598626Z"
+    },
+    {
+      "id": "57739d12-cdfd-471b-be05-412ba15ef033",
+      "name": "Aspen Ballroom",
+      "codename": "aspen_ballroom",
+      "type": {
+        "codename": "room"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-24T12:19:44.0823819Z"
+    },
+    {
+      "id": "81e4f015-f639-47e5-9592-c46519826841",
+      "name": "Colorado Ballroom A",
+      "codename": "colorado_ballroom_a",
+      "type": {
+        "codename": "room"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-25T12:44:13.8824414Z"
+    },
+    {
+      "id": "415e9110-572e-460d-b183-5aa3580eef62",
+      "name": "Denver Day 2",
+      "codename": "denver_day_2",
+      "type": {
+        "codename": "agenda"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-10-25T13:21:07.559202Z"
+    },
+    {
+      "id": "ccaf3802-6bb9-46d7-b24a-8f82d308a422",
+      "name": "Petr Palas",
+      "codename": "petr_palas",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-01T12:59:28.7799025Z"
+    },
+    {
+      "id": "ff6b1a15-5ebe-4f10-b9ee-fbd57d1195c8",
+      "name": "Denver Opening Keynote Presentation",
+      "codename": "denver_opening_keynote_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T19:05:14.9960695Z"
+    },
+    {
+      "id": "bc60beff-7777-4df4-b30e-2c0d34989d71",
+      "name": "Kontent Modeling",
+      "codename": "kontent_modeling",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-01T17:44:32.0110214Z"
+    },
+    {
+      "id": "b3b9bd7e-0b2a-47b3-8064-2690aa2db4e4",
+      "name": "Aaron Collier",
+      "codename": "aaron_collier",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-01T17:45:38.8700474Z"
+    },
+    {
+      "id": "c56cf98c-ccd8-4a11-ad33-c92b0b876d9a",
+      "name": "Why Should I Structure My Content?",
+      "codename": "why_should_i_structure_my_content_",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-01T17:47:24.1454132Z"
+    },
+    {
+      "id": "6d16a0f5-7f2b-483c-9ecf-05557af4a188",
+      "name": "Content Modeling Video",
+      "codename": "content_modeling_video",
+      "type": {
+        "codename": "youtube_video"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-01T17:48:14.9364858Z"
+    },
+    {
+      "id": "e2a02a7c-ac1d-4519-ad49-e2f57a17b432",
+      "name": "Denver Schedule",
+      "codename": "denver_schedule",
+      "type": {
+        "codename": "agenda_block"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-04T18:40:36.0885836Z"
+    },
+    {
+      "id": "c65a4d37-e19e-4cc3-95f2-a83620528f57",
+      "name": "Connecting the Dots",
+      "codename": "connecting_the_dots",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T18:53:57.7598734Z"
+    },
+    {
+      "id": "60856cec-f16e-44cf-b3d9-296dcdb8dce9",
+      "name": "Connecting the Dots Presentation",
+      "codename": "connecting_the_dots_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T18:54:43.9602245Z"
+    },
+    {
+      "id": "9811ef76-74ce-415c-aa8e-3756ad6eb348",
+      "name": "Lukas Turek",
+      "codename": "lukas_turek",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T18:55:16.556947Z"
+    },
+    {
+      "id": "95e47175-22e7-4990-b784-8068367ac6a6",
+      "name": "Michal Kadak",
+      "codename": "michal_kadak",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T18:59:39.5149876Z"
+    },
+    {
+      "id": "e236276b-dffe-470d-abcc-18aa81c3ad4c",
+      "name": "David Komarek",
+      "codename": "david_komarek",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T19:02:04.0180818Z"
+    },
+    {
+      "id": "2b5f57b7-08a5-4868-85f7-193d4e8e4c2e",
+      "name": "Martin Michalik",
+      "codename": "martin_michalik",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T19:04:26.3591732Z"
+    },
+    {
+      "id": "94b34862-d26b-4db5-be65-86fb1b84600f",
+      "name": "Christopher Jennings",
+      "codename": "christopher_jennings",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T19:43:45.6994276Z"
+    },
+    {
+      "id": "29be055f-714e-44c1-88e5-241e404d0b07",
+      "name": "From the Ground Up Presentation",
+      "codename": "from_the_ground_up_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T19:45:42.4151768Z"
+    },
+    {
+      "id": "10c189d2-a1c2-4c48-a9d3-3dcf25d15e33",
+      "name": "Vojtech Boril",
+      "codename": "vojtech_boril",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T19:48:46.7943175Z"
+    },
+    {
+      "id": "0f54d85e-7c94-4b1a-bf60-506ef0366f34",
+      "name": "World of Integrations Presentation",
+      "codename": "world_of_integrations_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T19:49:53.3877411Z"
+    },
+    {
+      "id": "aa101d5a-9c0a-4ce2-8d57-b38ef8e3aa7a",
+      "name": "Connecting the Dots",
+      "codename": "connecting_the_dots_aa101d5",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-06T19:51:22.441402Z"
+    },
+    {
+      "id": "04ce7efc-444d-4dd0-bba4-7cf14317260e",
+      "name": "Courtyard by Marriott Brno",
+      "codename": "courtyard_by_marriott_brno",
+      "type": {
+        "codename": "venue"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T08:37:24.7222806Z"
+    },
+    {
+      "id": "3e65f651-366a-4fb3-9674-e7cb33e67fdb",
+      "name": "Using Kentico 12 MVC with Azure DevOps",
+      "codename": "using_kentico_12_mvc_with_azure_devops",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T08:56:38.6512888Z"
+    },
+    {
+      "id": "85e9fdb0-a608-4566-bbc0-f594726c8473",
+      "name": "Registration",
+      "codename": "registration_85e9fdb",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T09:13:40.950883Z"
+    },
+    {
+      "id": "0603dd7b-987d-4ca1-96ca-5c8ddfa7c92a",
+      "name": "Brno Opening Keynote",
+      "codename": "brno_opening_keynote",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T09:23:45.6154474Z"
+    },
+    {
+      "id": "3e2ce8af-090f-429f-8227-046c9f8cf528",
+      "name": "Coffee Break",
+      "codename": "coffee_break_3e2ce8a",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T09:25:48.4745119Z"
+    },
+    {
+      "id": "5f1e0ea5-4c1c-4afa-a962-a4e7d182f74f",
+      "name": "Connecting the Dots",
+      "codename": "connecting_the_dots_5f1e0ea",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T09:44:30.2871955Z"
+    },
+    {
+      "id": "3c975158-79ec-437e-a814-9981160f7705",
+      "name": "Welcome to the World of Integrations",
+      "codename": "welcome_to_the_world_of_integrations_3c97515",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T09:46:14.2677986Z"
+    },
+    {
+      "id": "587afe89-50a7-47b4-8315-3a3817b811b3",
+      "name": "Lunch",
+      "codename": "lunch",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T11:01:34.7993933Z"
+    },
+    {
+      "id": "6c506936-bde3-4409-b099-3b25de6ae965",
+      "name": "Architecture and Setup of K12 MVC application",
+      "codename": "architecture_and_setup_of_k12_mvc_application",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T11:15:15.6693399Z"
+    },
+    {
+      "id": "2e529260-3c8d-42ee-97db-51a34601c6f0",
+      "name": "Implementing Kentico Headless",
+      "codename": "implementing_kentico_headless",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T18:42:59.7602137Z"
+    },
+    {
+      "id": "9744f80f-ef78-443a-9cc1-90e01081c439",
+      "name": "Aspen Foyer",
+      "codename": "aspen_foyer",
+      "type": {
+        "codename": "room"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T18:42:13.530586Z"
+    },
+    {
+      "id": "d5f053f5-fd72-4667-8d5a-f732bdfad27e",
+      "name": "Implementing Kentico Headless Presentation",
+      "codename": "implementing_kentico_headless_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T18:43:54.8298592Z"
+    },
+    {
+      "id": "88c6f3f6-bdba-4726-bfb0-587e74870456",
+      "name": "Lunch",
+      "codename": "lunch_88c6f3f",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T18:44:50.1630114Z"
+    },
+    {
+      "id": "b3f9dbac-cee9-4f50-ba53-bad4af0d3702",
+      "name": "Colorado Ballroom B",
+      "codename": "colorado_ballroom_b",
+      "type": {
+        "codename": "room"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T18:45:34.0200389Z"
+    },
+    {
+      "id": "550a412a-be1c-4ccb-a939-f77c48adbf0a",
+      "name": "Breakfast",
+      "codename": "breakfast",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:00:55.0154775Z"
+    },
+    {
+      "id": "85dfcf96-b3e8-4ba9-8b75-5f6a70aeca81",
+      "name": "Capitol Peak A (Pinnacle Club)",
+      "codename": "capitol_peak_a__pinnacle_club_",
+      "type": {
+        "codename": "room"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:01:28.7828811Z"
+    },
+    {
+      "id": "724314b3-87c2-403e-9e72-eb00a83b4733",
+      "name": ".NET Standard and Core in Kentico",
+      "codename": "_net_standard_and_core_in_kentico_724314b",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:04:33.3865414Z"
+    },
+    {
+      "id": "4c60c59c-d171-4c9b-a826-9ead32d4af43",
+      "name": "Capitol Peak B (Pinnacle Club)",
+      "codename": "capitol_peak_b__pinnacle_club_",
+      "type": {
+        "codename": "room"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:06:25.2156232Z"
+    },
+    {
+      "id": "e859d6e3-c2db-407e-8515-0653c472639a",
+      "name": "Marek Fesar",
+      "codename": "marek_fesar",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:06:58.704192Z"
+    },
+    {
+      "id": "ced38442-ea9b-4719-8f31-acea38784a77",
+      "name": ".NET Standard and Core in Kentico Presentation",
+      "codename": "_net_standard_and_core_in_kentico_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:08:02.2357679Z"
+    },
+    {
+      "id": "f1bdc0d3-ea68-4e7a-a895-7c67207b39b6",
+      "name": "The True Power of Headless CMS",
+      "codename": "the_true_power_of_headless_cms",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:12:40.9065642Z"
+    },
+    {
+      "id": "b1d58313-8318-49d7-89c5-833085809dde",
+      "name": "The True Power of Headless CMS Presentation",
+      "codename": "the_true_power_of_headless_cms_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:15:44.4161564Z"
+    },
+    {
+      "id": "368c3a95-3021-43b8-ba93-ead56226e52e",
+      "name": "Break",
+      "codename": "break_368c3a9",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:26:21.1400013Z"
+    },
+    {
+      "id": "685f2710-cf3d-4bb4-8811-a2d8f16a59a8",
+      "name": "Kentico + Azure DevOps",
+      "codename": "kentico___azure_devops",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:38:20.213318Z"
+    },
+    {
+      "id": "8607a07a-bbba-41c8-9d4e-3e4226b0048d",
+      "name": "Kentico + Azure DevOps Presentation",
+      "codename": "kentico___azure_devops_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:39:18.5315346Z"
+    },
+    {
+      "id": "3a1e811e-c363-494d-940f-9c8295b880e9",
+      "name": "Improve Your Content Strategy",
+      "codename": "improve_your_content_strategy",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:39:57.9619007Z"
+    },
+    {
+      "id": "322064b7-07a4-4a0a-aa6b-abe9fd52174d",
+      "name": "Michael Andrews",
+      "codename": "michael_andrews",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:40:32.5598571Z"
+    },
+    {
+      "id": "8ed64ca5-1cf2-41e2-b804-7bbf4cb8ffcc",
+      "name": "Coffee Break",
+      "codename": "coffee_break_8ed64ca",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:41:23.0723672Z"
+    },
+    {
+      "id": "ab0b5b59-9d10-4fdd-9df1-4a2908a07608",
+      "name": "Roundtable Discussion: AI and Machine Learning",
+      "codename": "roundtable_discussion__ai_and_machine_learning_denver",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:44:23.3825351Z"
+    },
+    {
+      "id": "6f94dbd2-2d7f-45ed-8066-fd7f85f2c40c",
+      "name": "Roundtable Discussion: Building Integrations",
+      "codename": "roundtable_discussion__building_integrations_denver",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:45:22.6458644Z"
+    },
+    {
+      "id": "bbd61d7d-8906-4a83-935b-1a76e8a239cf",
+      "name": "Roundtable Discussion: EMS + Kentico Kontent",
+      "codename": "roundtable_discussion__ems___kentico_kontent_denver",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:46:19.6901691Z"
+    },
+    {
+      "id": "b25c0bed-2597-45b4-a4f7-cca6fd7b22f2",
+      "name": "Roundtable Discussion: Starting your project",
+      "codename": "roudtable_discussion__getting_your_project_started",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:47:13.3085648Z"
+    },
+    {
+      "id": "aac92934-66b6-44a4-aa27-b284bbeb6ac5",
+      "name": "Lunch",
+      "codename": "lunch_aac9293",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-07T20:49:43.1171775Z"
+    },
+    {
+      "id": "ea6332b6-6775-4d78-801c-7b5332a37a34",
+      "name": ".NET Standard and Core in Kentico",
+      "codename": "_net_standard_and_core_in_kentico",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T10:36:28.6331224Z"
+    },
+    {
+      "id": "4a23f679-533f-452f-8022-2a43d35e072c",
+      "name": "Break",
+      "codename": "break",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T10:38:46.7020573Z"
+    },
+    {
+      "id": "82d15a4c-650e-487e-99e5-b0145e071ff0",
+      "name": "Portal Engine vs MVC",
+      "codename": "portal_engine_vs_mvc",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T10:39:39.8254047Z"
+    },
+    {
+      "id": "45f049f5-ebb8-4976-8025-3b0bcee7e551",
+      "name": "AI and Machine Learning",
+      "codename": "ai_and_machine_learning",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T10:53:35.9311359Z"
+    },
+    {
+      "id": "699f3efb-4c41-401a-a194-c57344bce110",
+      "name": "EMS + Kentico Kontent",
+      "codename": "ems___kentico_kontent",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T10:58:37.900509Z"
+    },
+    {
+      "id": "4d3b9f83-d464-49c2-ba64-be23694db0ca",
+      "name": "Martin Danko",
+      "codename": "martin_danko",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T11:11:58.8075779Z"
+    },
+    {
+      "id": "ea0a5cbc-980a-46de-a763-39faada87052",
+      "name": "Registration",
+      "codename": "registration_ea0a5cb",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T13:51:00.0688543Z"
+    },
+    {
+      "id": "612db776-77c9-4eff-b279-d37e18cbfd27",
+      "name": "Melbourne Opening Keynote",
+      "codename": "melbourne_opening_keynote",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T13:54:02.3738618Z"
+    },
+    {
+      "id": "493305a6-da95-4d3f-b3a0-a1a397137798",
+      "name": "Break",
+      "codename": "break_493305a",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T14:28:42.8290895Z"
+    },
+    {
+      "id": "d9f57e02-7ff0-4e20-8c3e-09ede1ce35b7",
+      "name": "Connecting the dots",
+      "codename": "connecting_the_dots_d9f57e0",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:07:26.7806446Z"
+    },
+    {
+      "id": "42dc8dd1-faf0-4c84-81fd-d7d09422560c",
+      "name": "Break",
+      "codename": "break_42dc8dd",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:09:15.3143351Z"
+    },
+    {
+      "id": "caf4ff9d-ff2b-4006-a262-fe1545b347dc",
+      "name": "Welcome to the world of integrations",
+      "codename": "welcome_to_the_world_of_integrations_caf4ff9",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:11:36.8298472Z"
+    },
+    {
+      "id": "598b5bed-596c-4045-9262-fa06343b5fd8",
+      "name": "Bart Omlo",
+      "codename": "bart_omlo",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:13:32.54208Z"
+    },
+    {
+      "id": "2736baee-1ee7-46e2-8891-92f74fc2d305",
+      "name": "Break",
+      "codename": "break_2736bae",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:16:41.8334029Z"
+    },
+    {
+      "id": "5e68a676-9eac-4dbc-9618-450a44b01712",
+      "name": "Kentico+Azure DevOps",
+      "codename": "kentico_azure_devops",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:18:07.1355384Z"
+    },
+    {
+      "id": "48e864e8-baee-4330-8dc9-905f0526264a",
+      "name": "Hacking Humans",
+      "codename": "hacking_humans",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:20:24.1190373Z"
+    },
+    {
+      "id": "a6481d16-4475-4091-86da-4406aaecd1da",
+      "name": "Hacking Humans presentation",
+      "codename": "hacking_humans_presentation",
+      "type": {
+        "codename": "presentation"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:21:42.1171144Z"
+    },
+    {
+      "id": "43281576-fd3a-4619-ba96-a58b51e9cfd0",
+      "name": "Lunch",
+      "codename": "lunch_4328157",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:23:44.124113Z"
+    },
+    {
+      "id": "9461d63d-6cae-4197-b579-40e2e866031b",
+      "name": "Melbourne Day 1",
+      "codename": "melbourne_day_1",
+      "type": {
+        "codename": "agenda"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:28:58.3818938Z"
+    },
+    {
+      "id": "c2340f81-d9ee-4a93-8149-6aa705244aa7",
+      "name": "Melbourne schedule",
+      "codename": "melbourne_schedule",
+      "type": {
+        "codename": "agenda_block"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-12T15:31:33.4841479Z"
+    },
+    {
+      "id": "d8a3a18c-e26b-4886-89d4-0579921968ef",
+      "name": "Early Bird Ticket",
+      "codename": "early_bird_ticket",
+      "type": {
+        "codename": "ticket"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-14T00:33:22.566702Z"
+    },
+    {
+      "id": "12783e9e-f57d-4f0c-9584-b2d83eef0d75",
+      "name": "Early Bird Group Ticket",
+      "codename": "early_bird_group_ticket",
+      "type": {
+        "codename": "ticket"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-14T00:35:38.3290258Z"
+    },
+    {
+      "id": "f8b21907-9147-40e5-8b66-3be4e40b565d",
+      "name": "Regular Ticket",
+      "codename": "regular_ticket",
+      "type": {
+        "codename": "ticket"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-14T00:36:16.1215796Z"
+    },
+    {
+      "id": "543eb108-30f2-4e1f-ae80-ec49424377ed",
+      "name": "Regular Group Ticket",
+      "codename": "regular_group_ticket",
+      "type": {
+        "codename": "ticket"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-14T00:36:48.7498044Z"
+    },
+    {
+      "id": "4295fb5b-e35b-4796-89f6-0c5ccacfbb30",
+      "name": "Registration",
+      "codename": "registration_4295fb5",
+      "type": {
+        "codename": "registration"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-14T00:47:17.9179632Z"
+    },
+    {
+      "id": "b4cd8392-3d23-4a12-b392-3fe6423c5d8f",
+      "name": "Registration Form",
+      "codename": "registration_form",
+      "type": {
+        "codename": "hubspot_form"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-14T00:48:51.9241589Z"
+    },
+    {
+      "id": "3bb9920f-a151-47e2-b029-cba6704fe3c3",
+      "name": ".NET Standard and Core in Kentico",
+      "codename": "_net_standard_and_core_in_kentico_3bb9920",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:25:34.7827934Z"
+    },
+    {
+      "id": "9aa4d34a-cd4b-4371-bfcd-237e263e3f22",
+      "name": "Leveraging the Power of K12 to Deliver the Child",
+      "codename": "leveraging_the_power_of_k12_to_deliver_the_child",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:29:33.8911263Z"
+    },
+    {
+      "id": "66ea7a32-6aee-443c-9ebb-6cab5cedf0fa",
+      "name": "Break",
+      "codename": "break_66ea7a3",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:30:54.0716433Z"
+    },
+    {
+      "id": "6089ac24-f37a-43f2-95f3-7152710145bb",
+      "name": "Visual Regression Testing",
+      "codename": "visual_regression_testing",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:32:10.766427Z"
+    },
+    {
+      "id": "996fbd89-f346-4e0a-896f-56dd8161e41a",
+      "name": "Kentico at Scale",
+      "codename": "kentico_at_scale_996fbd8",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:33:44.6475199Z"
+    },
+    {
+      "id": "b563baba-f40d-4d64-b8c7-53d6fd929513",
+      "name": "Roundtable discussion: AI and Machine Learning",
+      "codename": "roundtable_discussion__ai_and_machine_learning",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:38:26.8483564Z"
+    },
+    {
+      "id": "34c6f6d3-4312-464e-b00b-7b851e3d96ea",
+      "name": "Break",
+      "codename": "break_34c6f6d",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:40:05.8666506Z"
+    },
+    {
+      "id": "fc32bbe6-b935-4ef8-a885-2506bf001a76",
+      "name": "Roundtable Discussion: Building Integrations",
+      "codename": "roundtable_discussion__building_integrations",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:41:19.059727Z"
+    },
+    {
+      "id": "071bac69-75a9-4c09-8e4b-af7fbb18f14f",
+      "name": "Roundtable Discussion: Content Modeling",
+      "codename": "roundtable_discussion__content_modeling",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:44:01.3783702Z"
+    },
+    {
+      "id": "eb58065d-3b36-43b3-a0f1-9799011091df",
+      "name": "Roundtable Discussion: EMS + Kentico Kontent",
+      "codename": "roundtable_discussion__ems___kentico_kontent",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:45:09.129845Z"
+    },
+    {
+      "id": "0273df4f-7e82-4b8d-b099-dc589e0f5ff2",
+      "name": "Roundtable Discussion: Migrating to MVC",
+      "codename": "roundtable_discussion__migrating_to_mvc",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:46:03.3606081Z"
+    },
+    {
+      "id": "6b55051b-70d4-4e63-ab18-aa2c9cec51fa",
+      "name": "Ondrej Polesny",
+      "codename": "ondrej_polesny",
+      "type": {
+         "codename": "speaker"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:46:52.1886418Z"
+    },
+    {
+      "id": "44cdd0c7-da25-4803-9d17-e89f845f4cfb",
+      "name": "Lunch",
+      "codename": "lunch_44cdd0c",
+      "type": {
+        "codename": "agenda_item"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:47:44.9432365Z"
+    },
+    {
+      "id": "b8d1e21b-ce06-4fd4-9edd-bd1bc2b070cd",
+      "name": "Melbourne day 2",
+      "codename": "melbourne_day_2",
+      "type": {
+        "codename": "agenda"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-18T08:49:58.444426Z"
+    },
+    {
+      "id": "da76de7b-54ec-487c-baf7-6793d3440365",
+      "name": "Star Room under the Melbourne Star",
+      "codename": "star_room_under_the_melbourne_star",
+      "type": {
+        "codename": "venue"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-19T12:44:03.047624Z"
+    },
+    {
+      "id": "d1993b79-0d3d-4f6c-bf69-bc64860b8ff2",
+      "name": "Home Melbourne",
+      "codename": "home_melbourne",
+      "type": {
+        "codename": "home"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-11-19T12:51:18.8244176Z"
+    },
+    {
+      "id": "38f09068-9d53-49aa-ac13-4a46bd3da3ab",
+      "name": "Kentico Software (copy) (copy)",
+      "codename": "kentico_software__copy___copy__38f0906",
+      "type": {
+        "codename": "sponsor"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2019-12-02T18:51:31.7995252Z"
+    },
+    {
+      "id": "411c9196-092e-4ac3-8660-a21fe3cc900a",
+      "name": "Home Brno",
+      "codename": "home_brno",
+      "type": {
+        "codename": "home"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2020-01-21T08:51:55.7614497Z"
+    },
+    {
+      "id": "7c42e77d-0f0c-4e3c-a272-2056fabdc955",
+      "name": "Brno Day 1",
+      "codename": "brno_day_1",
+      "type": {
+        "codename": "agenda"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2020-01-21T09:44:53.1874357Z"
+    },
+    {
+      "id": "49a6d4c0-acbd-45c0-9f5d-248b5af522cf",
+      "name": "Brno Day 2",
+      "codename": "brno_day_2",
+      "type": {
+        "codename": "agenda"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2020-01-21T10:58:22.9185904Z"
+    },
+    {
+      "id": "9299a8c1-c223-46a2-aa17-1c31cceaf6d9",
+      "name": "Brno schedule",
+      "codename": "brno_schedule",
+      "type": {
+        "codename": "agenda_block"
+      },
+      "sitemap_locations": [],
+      "last_modified": "2020-01-21T11:02:07.1707524Z"
+    }
+  ],
+    "pagination": {
+        "continuation_token": null,
+        "next_page": null
+    }
+}
