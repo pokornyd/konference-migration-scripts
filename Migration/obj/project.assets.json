@@ -713,11 +713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\ConsoleApp2\\Konference.csproj",
+      "projectUniqueName": "C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\Migration\\Konference.csproj",
       "projectName": "Konference",
-      "projectPath": "C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\ConsoleApp2\\Konference.csproj",
+      "projectPath": "C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\Migration\\Konference.csproj",
       "packagesPath": "C:\\Users\\DanielP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\ConsoleApp2\\obj\\",
+      "outputPath": "C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\Migration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

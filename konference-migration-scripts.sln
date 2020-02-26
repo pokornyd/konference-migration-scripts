@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konference", "ConsoleApp2\Konference.csproj", "{444EEF4E-43D1-4087-9108-8B4AE65BFA15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konference", "Migration\Konference.csproj", "{444EEF4E-43D1-4087-9108-8B4AE65BFA15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
