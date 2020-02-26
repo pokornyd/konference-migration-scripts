@@ -22,6 +22,10 @@ namespace Konference
             Console.WriteLine("Enter project ID of your target project:");
             string projectId = Console.ReadLine();
             Console.WriteLine("Enter CM API key of the target project:");
+            
+            int bufSize = 1024;
+            Stream inStream = Console.OpenStandardInput(bufSize);
+            Console.SetIn(new StreamReader(inStream, Console.InputEncoding, false, bufSize));
             string apiKey = Console.ReadLine();
 
             Console.WriteLine("\nChoose project type:\n");
