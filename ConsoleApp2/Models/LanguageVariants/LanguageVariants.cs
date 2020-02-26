@@ -17,6 +17,8 @@ namespace Konference.Models
         public VariantElements[] VariantElements { get; set; }
         [JsonProperty("item")]
         public VariantItem Item { get; set; }
+
+
     }
 
     public class VariantElements
@@ -27,6 +29,8 @@ namespace Konference.Models
         public dynamic Value { get; set; }
         [JsonProperty("mode", NullValueHandling = NullValueHandling.Ignore)]
         public string Mode { get; set; }
+        [JsonProperty("components")]
+        public Component[] Components { get; set; }
     }
 
     public class VariantElement
@@ -39,5 +43,15 @@ namespace Konference.Models
     {
         [JsonProperty("codename")]
         public string Codename { get; set; }
+    }
+
+    public class Component
+    {
+        [JsonProperty("id")]
+        public string Id { get; set; }
+        [JsonProperty("type")]
+        public Type Type { get; set; }
+        [JsonProperty("elements")]
+        public VariantElements[] VariantElements { get; set; }
     }
 }

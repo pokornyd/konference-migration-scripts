@@ -1,69 +1,78 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
+using Konference.Interfaces;
 using Konference.Models;
 using Newtonsoft.Json;
 
 namespace Konference
 {
-    class TypeMigrator : Migrator
+    class TypeMigrator : Migrator, IMigrator
     {
         public TypeMigrator(string projectId, string apiKey) : base(projectId, apiKey)
         {
         }
 
-        public ContentTypes GetContentTypes()
+        public async Task Migrate()
         {
-            using (StreamReader reader = new StreamReader("C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\ConsoleApp2\\Jsons\\Types.json"))
-            {
-                string jsonBody = reader.ReadToEnd();
-                ContentTypes contentTypes = JsonConvert.DeserializeObject<ContentTypes>(jsonBody);
-                return contentTypes;
-            }
+            ContentTypes contentTypes = GetContentTypes();
+            await SetContentTypes(contentTypes);
         }
 
-        public async void SetContentTypes(ContentTypes contentTypes)
+        public ContentTypes GetContentTypes()
+        {
+            var typesJson = GetJsonResource("Jsons.Types.json");
+            ContentTypes contentTypes = JsonConvert.DeserializeObject<ContentTypes>(typesJson);
+
+            return contentTypes;
+        }
+
+        public async Task SetContentTypes(ContentTypes contentTypes)
         {
             using (WebClient client = new WebClient())
             {
                 client.Headers.Add("Authorization", "Bearer " + ApiKey);
                 client.Headers.Add("Content-type", "application/json");
-                Uri uri = new Uri("https://manage.kontent.ai/v2/projects/" + ProjectId + "/types");
-                bool errorFlag = false;
+                Uri endpoint = new Uri(BaseEndpoint + "/types");
 
                 foreach (ContentType contentType in contentTypes.Types)
                 {
                     try
                     {
                         string jsonBody = JsonConvert.SerializeObject(contentType);
-                        string response = await client.UploadStringTaskAsync(uri, "POST", jsonBody);
+                        string response = await client.UploadStringTaskAsync(endpoint, "POST", jsonBody);
                         Console.WriteLine("Type \"" + contentType.Name + "\" migrated successfully");
                     }
                     catch (WebException ex)
                     {
-                        errorFlag = true;
+                        ErrorFlag = true;
                         using (var stream = ex.Response.GetResponseStream())
                         using (var reader = new StreamReader(stream))
                         {
                             string errorStream = reader.ReadToEnd();
                             Error error = JsonConvert.DeserializeObject<Error>(errorStream);
-                            foreach (ValidationError validationError in error.ValidationErrors)
+                            if (error.ValidationErrors != null)
                             {
-                                Console.WriteLine("Type \"" + contentType.Name + "\" not migrated, error: " + validationError.Message);
+                                foreach (ValidationError validationError in error.ValidationErrors)
+                                {
+                                    Console.WriteLine("Type \"" + contentType.Name + "\" not migrated, error: " + validationError.Message);
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Type: " + contentType.Name + " Error: " + error.Message);
                             }
                         }
                     }
                     catch (Exception ex)
                     {
-                        errorFlag = true;
+                        ErrorFlag = true;
                         Console.WriteLine("Type \"" + contentType.Name + "\" not migrated, error: " + ex.Message);
                     }
                 }
 
-                if (errorFlag)
+                if (ErrorFlag)
                 {
                     Console.WriteLine("\nErrors were encountered, some types may not have been properly created.\n");
                 }

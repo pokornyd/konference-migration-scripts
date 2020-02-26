@@ -205,16 +205,6 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
-      },
-      "Resources/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Resources.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Resources.dll": {}
-        }
       }
     }
   },
@@ -708,18 +698,12 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "Resources/1.0.0": {
-      "type": "project",
-      "path": "../Resources/Resources.csproj",
-      "msbuildProject": "../Resources/Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
-      "Newtonsoft.Json >= 12.0.3",
-      "Resources >= 1.0.0"
+      "Newtonsoft.Json >= 12.0.3"
     ]
   },
   "packageFolders": {
@@ -751,11 +735,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\Resources\\Resources.csproj": {
-              "projectPath": "C:\\Users\\DanielP\\source\\repos\\konference-migration-scripts\\Resources\\Resources.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

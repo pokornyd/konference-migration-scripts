@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,11 +6,56 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\BrnoSplash.jpg" />
+    <None Remove="Images\BrnoVenue.jpg" />
+    <None Remove="Images\DenverSplash.png" />
+    <None Remove="Images\DenverVenue.jpg" />
+    <None Remove="Images\KenticoLogotype.png" />
+    <None Remove="Images\MelbourneSplash.png" />
+    <None Remove="Images\MelbourneVenue.jpg" />
+    <None Remove="Images\SpeakerIcon.png" />
+    <None Remove="Jsons\Assets.json" />
+    <None Remove="Jsons\Folders.json" />
+    <None Remove="Jsons\Items.json" />
+    <None Remove="Jsons\Taxonomies.json" />
+    <None Remove="Jsons\Types.json" />
+    <None Remove="Jsons\Variants.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\BrnoSplash.jpg" />
+    <EmbeddedResource Include="Images\BrnoVenue.jpg" />
+    <EmbeddedResource Include="Images\DenverSplash.png" />
+    <EmbeddedResource Include="Images\DenverVenue.jpg" />
+    <EmbeddedResource Include="Images\KenticoLogotype.png" />
+    <EmbeddedResource Include="Images\MelbourneSplash.png" />
+    <EmbeddedResource Include="Images\MelbourneVenue.jpg" />
+    <EmbeddedResource Include="Images\SpeakerIcon.png" />
+    <EmbeddedResource Include="Jsons\Assets.json" />
+    <EmbeddedResource Include="Jsons\Folders.json" />
+    <EmbeddedResource Include="Jsons\Items.json" />
+    <EmbeddedResource Include="Jsons\Taxonomies.json" />
+    <EmbeddedResource Include="Jsons\Types.json" />
+    <EmbeddedResource Include="Jsons\Variants.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Resources\Resources.csproj" />
+    <Compile Update="Images.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

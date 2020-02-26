@@ -5,13 +5,13 @@ using Newtonsoft.Json;
 
 namespace Konference.Models
 {
-    class ContentItems
+    public class ContentItems
     {
         [JsonProperty("items")]
         public Item[] Items { get; set; }
     }
 
-    class Item
+    public class Item
     {
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -21,7 +21,7 @@ namespace Konference.Models
         public Type Type { get; set; }
     }
 
-    class Type
+    public class Type
     {
         [JsonProperty("codename")]
         public string Codename { get; set; }
