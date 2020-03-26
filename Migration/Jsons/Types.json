@@ -1,1145 +1,1076 @@
 {
-    "types": [
+  "types": [
+    {
+      "id": "f5415534-6394-49fa-8efa-37c8983dc257",
+      "codename": "youtube_video",
+      "last_modified": "2019-11-05T18:45:07.7703355Z",
+      "name": "YouTube Video",
+      "content_groups": [],
+      "elements": [
         {
-            "id": "9c3dbec5-8316-4b42-9251-738eb8a41806",
-            "codename": "presentation",
-            "last_modified": "2019-11-05T18:35:31.3798114Z",
-            "name": "Presentation",
-            "content_groups": [],
-            "elements": [
-                {
-                    "guidelines": "<p>A <strong>Presentation </strong>is the subject matter, contents, and description of an <strong>Agenda Item</strong>. &nbsp;Presentations can be re-used across multiple <strong>Agenda Items</strong> in different <strong>Agendas</strong>. &nbsp;Additionally, different <strong>Speakers </strong>can give the same presentation at different conferences.</p>",
-                    "type": "guidelines",
-                    "id": "a6e1e4f5-c3de-4ad0-8634-3a09f5f7ec79",
-                    "codename": "a6e1e4f5_c3de_4ad0_8634_3a09f5f7ec79"
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Name",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "85a95608-d972-4744-9f25-ad0852d84c9e",
-                    "codename": "name"
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Description",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "rich_text",
-                    "id": "88d90c21-78d8-415b-b16d-6c0994cc0fca",
-                    "codename": "description"
-                },
-                {
-                    "asset_count_limit": null,
-                    "maximum_file_size": null,
-                    "allowed_file_types": "any",
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "name": "Materials",
-                    "guidelines": "PDFs, PowerPoint slides, and any other materials used in the presentation meant to be downloaded by the public.",
-                    "is_required": false,
-                    "type": "asset",
-                    "id": "9780ee37-03f2-461e-a4d9-53c7eadb9b71",
-                    "codename": "materials"
-                }
-            ]
-        },
-        {
-            "id": "644d09f2-3fb4-4277-9eb2-d1175eafd35d",
-            "codename": "speaker",
-            "last_modified": "2019-12-10T14:10:06.6211852Z",
-            "name": "Speaker",
-            "content_groups": [],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "First Name",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "df935d9c-b833-4a07-b113-eab0918c173e",
-                    "codename": "first_name"
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Last Name",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "53583fad-c691-441e-a3c4-4b6fd2cb2f05",
-                    "codename": "last_name"
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Job Title",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "a1ef06cb-09e3-4af5-81c7-4cb81fa6ed2f",
-                    "codename": "job_title"
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "3ada8bba-6c9a-4479-a678-f55334500d84"
-                        },
-                        {
-                            "id": "f5415534-6394-49fa-8efa-37c8983dc257"
-                        }
-                    ],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Bio",
-                    "guidelines": "Tweets can be added to this field as Components.",
-                    "is_required": false,
-                    "type": "rich_text",
-                    "id": "5decc4d8-ac98-4ae6-bba1-ddaab8046a18",
-                    "codename": "bio"
-                },
-                {
-                    "asset_count_limit": null,
-                    "maximum_file_size": null,
-                    "allowed_file_types": "any",
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "name": "Photo",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "asset",
-                    "id": "bc66cb78-1dc2-483c-a2e7-28a1b3e5dfad",
-                    "codename": "photo"
-                },
-                {
-                    "source_url": "https://pokornyd.github.io/unique_id.html",
-                    "json_parameters": "{\"codename\":\"speaker_id\",\"request_repeater\":\"https://j5a1wa1vva.execute-api.eu-central-1.amazonaws.com/default/requestRepeater\",\"first_name\":\"first_name\",\"last_name\":\"last_name\"}",
-                    "allowed_elements": [
-                        {
-                            "codename": "first_name"
-                        },
-                        {
-                            "codename": "last_name"
-                        }
-                    ],
-                    "name": "Speaker ID",
-                    "guidelines": "ID generator that grabs first letters of two specified fields and appends them with an integer, ensuring uniqueness across all items in a project. Required parameters are \"codename\", which has to contain the codename of the element that will be checked for uniqueness, \"request_repeater\", containing the URL of the lambda function that will process our AJAX, and \"first_name\" and \"last_name\" which have to reference the two fields the element will be taking letters from respectively.",
-                    "is_required": false,
-                    "type": "custom",
-                    "id": "8354f8dc-124c-4648-aa20-49fcacdee418",
-                    "codename": "speaker_id"
-                }
-            ]
-        },
-        {
-            "id": "fd58918f-c2ff-4460-8f6f-fff7bac617ef",
-            "codename": "agenda_item",
-            "last_modified": "2019-11-05T18:28:36.4589601Z",
-            "name": "Agenda Item",
-            "content_groups": [
-              {
-                "name": "Details",
-                "external_id": "details_agenda_item",
-                "codename": "details"
-              },
-              {
-                "name": "Related Items",
-                "external_id": "related_items_agenda_item",
-                "codename": "related_items"
-              },
-              {
-                "name": "Location",
-                "external_id": "location_agenda_item",
-                "codename": "location"
-              }
-            ],
-            "elements": [
-                {
-                    "guidelines": "<p>An <strong>Agenda Item </strong>is a panel, presentation, talk, or event on a specific &nbsp;<strong>Agenda</strong>. &nbsp;<br/>\n <br/>\nExamples: Coffee Break, Registration, Content Modeling Workshop, Developing with MVC, etc.</p>",
-                    "type": "guidelines",
-                    "id": "b10bf9b0-4169-485b-9248-a95fef773b04",
-                    "codename": "b10bf9b0_4169_485b_9248_a95fef773b04",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Name",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "a62e399b-bafe-4c0f-b100-80a403f804b3",
-                    "codename": "name",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "name": "Start Time",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "date_time",
-                    "id": "a7a55074-e862-4844-85d4-dee76753207c",
-                    "codename": "start_time",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "name": "End Time",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "date_time",
-                    "id": "40c291b3-0b40-43a5-bcd4-4b2c5b623687",
-                    "codename": "end_time",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "35d3915b-b366-4e8f-8cec-a94e4a8af25d"
-                        }
-                    ],
-                    "name": "Room",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "modular_content",
-                    "id": "10e34802-9e32-4a51-a89f-868973a6204b",
-                    "codename": "room",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "644d09f2-3fb4-4277-9eb2-d1175eafd35d"
-                        }
-                    ],
-                    "name": "Speakers",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "modular_content",
-                    "id": "806d5769-3f31-47c6-a201-7fb4131870b1",
-                    "codename": "speakers",
-                    "content_group": {
-                        "codename": "related_items"
-                    }
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "9c3dbec5-8316-4b42-9251-738eb8a41806"
-                        }
-                    ],
-                    "name": "Presentation",
-                    "guidelines": "Presentations are not specific to Agenda Items and can be used across different Agenda Items on different Agendas.\n\nPresentations may not be applicable to agenda items like \"Coffee Break.\"",
-                    "is_required": false,
-                    "type": "modular_content",
-                    "id": "2b921079-be04-4513-a5c7-608316df9e4a",
-                    "codename": "presentation",
-                    "content_group": {
-                        "codename": "related_items"
-                    }
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "f5415534-6394-49fa-8efa-37c8983dc257"
-                        }
-                    ],
-                    "name": "Recording",
-                    "guidelines": "YouTube is the only supported format currently.",
-                    "is_required": false,
-                    "type": "modular_content",
-                    "id": "4bc5fd19-a704-4631-837b-9737405be844",
-                    "codename": "recording",
-                    "content_group": {
-                        "codename": "related_items"
-                    }
-                },
-                {
-                  "depends_on": {
-                    "element": {
-                      "codename": "name"
-                    }
-                  },
-                    "name": "Url Slug",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "url_slug",
-                    "id": "94ee942f-f633-421b-8c9e-0c66cec816d1",
-                    "codename": "url_slug",
-                    "content_group": {
-                        "codename": "related_items"
-                    }
-                },
-                {
-                    "guidelines": null,
-                    "taxonomy_group": {
-                        "codename":"location"
-                    },
-                    "is_required": true,
-                    "type": "taxonomy",
-                    "id": "63188721-0cf6-477d-baff-34b3c6825e27",
-                    "codename": "location",
-                    "content_group": {
-                        "codename": "location"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "16bf3c2f-1a9f-43b3-8e5a-6477d21f5631",
-            "codename": "venue",
-            "last_modified": "2019-11-05T18:45:01.5982079Z",
-            "name": "Venue",
-            "content_groups": [
-              {
-                "name": "Details",
-                "external_id": "details_venue",
-                "codename": "details"
-              },
-              {
-                "name": "Location",
-                "external_id": "location_venue",
-                "codename": "location"
-              }
-            ],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Name",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "f76fece7-42ec-433a-8298-ae6124a88160",
-                    "codename": "name",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Address",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "rich_text",
-                    "id": "c5cbe340-12ea-401e-b965-80d41ffe3db5",
-                    "codename": "address",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "asset_count_limit": null,
-                    "maximum_file_size": null,
-                    "allowed_file_types": "any",
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "name": "Image",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "asset",
-                    "id": "741677b5-a92c-4538-ad8c-c6a49e221ca7",
-                    "codename": "image",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Description",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "rich_text",
-                    "id": "c7f809ed-7c11-4f05-abcc-61fc75aecf67",
-                    "codename": "description",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Link",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "e7f4988b-0c15-47f5-bb5f-3eee705a7ad5",
-                    "codename": "link",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Map Source",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "ca985270-da69-4577-81f4-9c36ad4e1c7c",
-                    "codename": "map_source",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "guidelines": null,
-                    "taxonomy_group": {
-                        "codename":"location"
-                    },
-                    "is_required": false,
-                    "type": "taxonomy",
-                    "id": "246b637f-e18a-42fe-a841-c189ec3d5748",
-                    "codename": "location",
-                    "content_group": {
-                        "codename": "location"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "eb1f47ad-6746-4c72-bbd8-04af8c2f827e",
-            "codename": "ticket",
-            "last_modified": "2020-01-15T14:42:48.6681044Z",
-            "name": "Ticket",
-            "content_groups": [],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Name",
-                    "guidelines": "Testing guidelines for migration purposes.\nA\nb\nc",
-                    "is_required": true,
-                    "type": "text",
-                    "id": "f5132dee-b971-43ab-b044-bae072700f82",
-                    "codename": "name"
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Description",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "rich_text",
-                    "id": "32e9ea59-503b-40d1-8077-9ca603f19dca",
-                    "codename": "description"
-                },
-                {
-                    "name": "Price",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "number",
-                    "id": "52238d38-2eb5-4ae4-8541-d7a20949a675",
-                    "codename": "price"
-                }
-            ]
-        },
-        {
-            "id": "a4b8eb8c-ee33-44b4-98c1-e845d3abb77c",
-            "codename": "hubspot_form",
-            "last_modified": "2019-11-14T00:25:20.1873645Z",
-            "name": "Hubspot Form",
-            "content_groups": [],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Portal ID",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "b0321430-0fed-41a4-815f-35cc7082bb53",
-                    "codename": "portal_id"
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Form ID",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "32aac576-fe92-4247-9aee-8ec8a1309b93",
-                    "codename": "form_id"
-                }
-            ]
-        },
-        {
-            "id": "60a70eae-c57b-42bc-8fc4-8b1ce3775fe9",
-            "codename": "sponsor",
-            "last_modified": "2019-11-05T18:43:06.9827693Z",
-            "name": "Sponsor",
-            "content_groups": [],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Name",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "196258b0-9845-451d-8a2d-2777854ca1b9",
-                    "codename": "name"
-                },
-                {
-                    "asset_count_limit": null,
-                    "maximum_file_size": null,
-                    "allowed_file_types": "any",
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "name": "Logo",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "asset",
-                    "id": "8c94f8ea-a19b-4bd7-887a-ad512ee75dfb",
-                    "codename": "logo"
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Website",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "00d1fad2-da25-49e6-afee-6e65d42430a7",
-                    "codename": "website"
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Description",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "rich_text",
-                    "id": "4fdc77cd-8f29-43d1-aed9-6afe90b70fd7",
-                    "codename": "description"
-                }
-            ]
-        },
-        {
-            "id": "2de41713-6289-4376-9edb-825c71b61a33",
-            "codename": "home",
-            "last_modified": "2019-11-19T17:53:34.0513969Z",
-            "name": "Home",
-            "content_groups": [
-              {
-                "name": "Content",
-                "external_id": "content_home",
-                "codename": "content"
-              },
-              {
-                "name": "Related Items",
-                "external_id": "related_items_home",
-                "codename": "related_items"
-              },
-              {
-                "name": "Location",
-                "external_id": "location_home",
-                "codename": "location"
-              }
-            ],
-            "elements": [
-                {
-                    "asset_count_limit": {
-                        "value": 1,
-                        "condition": "exactly"
-                    },
-                    "maximum_file_size": null,
-                    "allowed_file_types": "any",
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "name": "Banner Image",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "asset",
-                    "id": "bf7b3228-f7b2-466d-ade6-4721d51c4bb4",
-                    "codename": "banner_image",
-                    "content_group": {
-                        "codename": "content"
-                    }
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Banner Text",
-                    "guidelines": "Name of the conference",
-                    "is_required": false,
-                    "type": "text",
-                    "id": "4dec2a43-8164-40a5-a8b7-11d25ee3d67a",
-                    "codename": "banner_text",
-                    "content_group": {
-                        "codename": "content"
-                    }
-                },
-                {
-                    "name": "Start Date",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "date_time",
-                    "id": "e3967592-1417-438f-b816-93eb1a79e911",
-                    "codename": "start_date",
-                    "content_group": {
-                        "codename": "content"
-                    }
-                },
-                {
-                    "name": "End Date",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "date_time",
-                    "id": "917e35be-abb4-4e0e-9112-a5fa6ba8ff32",
-                    "codename": "end_date",
-                    "content_group": {
-                        "codename": "content"
-                    }
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Description",
-                    "guidelines": "Optional description about the purpose of the conference.",
-                    "is_required": false,
-                    "type": "rich_text",
-                    "id": "bc8a5f52-ffbe-4d57-ac70-242a5b4bcc30",
-                    "codename": "description",
-                    "content_group": {
-                        "codename": "content"
-                    }
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "16bf3c2f-1a9f-43b3-8e5a-6477d21f5631"
-                        }
-                    ],
-                    "name": "Venue",
-                    "guidelines": "Conferences can be held in multiple venues.",
-                    "is_required": true,
-                    "type": "modular_content",
-                    "id": "cbf66278-c537-457c-8411-61658b187cb3",
-                    "codename": "venue",
-                    "content_group": {
-                        "codename": "related_items"
-                    }
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "60a70eae-c57b-42bc-8fc4-8b1ce3775fe9"
-                        }
-                    ],
-                    "name": "Sponsors",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "modular_content",
-                    "id": "43632d05-320a-405e-8b43-a00554e01f53",
-                    "codename": "sponsors",
-                    "content_group": {
-                        "codename": "related_items"
-                    }
-                },
-                {
-                    "guidelines": "When Home items exist for different locations, a landing page will provide users the option to choose the location they are interested in.",
-                    "taxonomy_group": {
-                        "codename":"location"
-                    },
-                    "is_required": true,
-                    "type": "taxonomy",
-                    "id": "db9418a2-0bad-4914-8a96-279d79bc8bde",
-                    "codename": "location",
-                    "content_group": {
-                        "codename": "location"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "09aefd2f-2dd7-4a56-82e2-b3b1f35b035b",
-            "codename": "agenda_block",
-            "last_modified": "2019-11-05T18:39:01.0323616Z",
-            "name": "Agenda Block",
-            "content_groups": [
-              {
-                "name": "Details",
-                "external_id": "details_agenda_block",
-                "codename": "details"
-              },
-              {
-                "name": "Location",
-                "external_id": "location_agenda_block",
-                "codename": "location"
-              }
-            ],
-            "elements": [
-                {
-                    "guidelines": "<p>An <strong>Agenda Block </strong>is the total collection of <strong>Agendas</strong> for a conference. &nbsp;<br/>\n <br/>\nExamples: a two-day conference may have an <strong>Agenda Block</strong> containing \"<em>Location </em>Day 1&nbsp;\" and \"<em>Location </em>Day 2&nbsp;\" <strong>Agendas.</strong></p>\n<p>A single-day conference may have an <strong>Agenda Block</strong> containing \"Morning\" or \"Night\" <strong>Agendas</strong>.&nbsp;</p>",
-                    "type": "guidelines",
-                    "id": "549451c9-13d8-47ac-bc90-25dfa738bc29",
-                    "codename": "n549451c9_13d8_47ac_bc90_25dfa738bc29",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "d70043a3-0e9e-486c-add4-29ca7468dc09"
-                        }
-                    ],
-                    "name": "Agendas",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "modular_content",
-                    "id": "65225f19-2138-4cff-98ae-276e87379e34",
-                    "codename": "agendas",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "guidelines": null,
-                    "taxonomy_group": {
-                        "codename":"location"
-                    },
-                    "is_required": true,
-                    "type": "taxonomy",
-                    "id": "b0192966-77dc-44bc-bf15-f8f1667fb997",
-                    "codename": "location",
-                    "content_group": {
-                        "codename": "location"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "3ada8bba-6c9a-4479-a678-f55334500d84",
-            "codename": "tweet",
-            "last_modified": "2019-11-05T18:43:22.5318363Z",
-            "name": "Tweet",
-            "content_groups": [],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Tweet Link",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "c8242fb1-1148-41dc-9d1a-29f370a717c1",
-                    "codename": "tweet_link"
-                },
-                {
-                    "mode": "single",
-                    "options": [
-                        {
-                            "id": "be78a8a6-66b1-46d1-9d59-03d2f22f2e06",
-                            "codename": "dark",
-                            "name": "Dark"
-                        },
-                        {
-                            "id": "296e9efe-35b8-4aa5-a363-94e3cee94085",
-                            "codename": "light",
-                            "name": "Light"
-                        }
-                    ],
-                    "name": "Theme",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "multiple_choice",
-                    "id": "5fbdd60c-d42e-466b-a652-39af0553d88e",
-                    "codename": "theme"
-                },
-                {
-                    "mode": "multiple",
-                    "options": [
-                        {
-                            "id": "e68ec962-c0f1-4800-9702-741df73bf6e9",
-                            "codename": "hide_thread",
-                            "name": "Hide thread"
-                        },
-                        {
-                            "id": "3e0bc13f-efdd-4b6d-b447-03cd5a9deaa8",
-                            "codename": "hide_media",
-                            "name": "Hide media"
-                        }
-                    ],
-                    "name": "Display Options",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "multiple_choice",
-                    "id": "43b3b0af-f53b-46b2-b295-9e0497e246b2",
-                    "codename": "display_options"
-                }
-            ]
-        },
-        {
-            "id": "6355c1f9-d2a5-4310-a822-4fd972251423",
-            "codename": "registration",
-            "last_modified": "2019-11-14T13:11:34.8535072Z",
-            "name": "Registration",
-            "content_groups": [],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Title",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "f7019fba-9481-4ca7-9a66-cae319308d33",
-                    "codename": "title"
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Description",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "rich_text",
-                    "id": "f884e275-4dbf-49dd-bba9-184833de6688",
-                    "codename": "description"
-                },
-                {
-                    "item_count_limit": {
-                        "value": 1,
-                        "condition": "at_least"
-                    },
-                    "allowed_content_types": [
-                        {
-                            "id": "eb1f47ad-6746-4c72-bbd8-04af8c2f827e"
-                        }
-                    ],
-                    "name": "Tickets",
-                    "guidelines": "If an event does not require tickets, create a Ticket content item notifying visitors that the conference is free.",
-                    "is_required": true,
-                    "type": "modular_content",
-                    "id": "a07fb743-bf61-46b9-adea-5440a874fe46",
-                    "codename": "tickets"
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "a4b8eb8c-ee33-44b4-98c1-e845d3abb77c"
-                        }
-                    ],
-                    "name": "Form",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "modular_content",
-                    "id": "e1a3ccab-f2ee-48c8-9fbf-848c4b392fea",
-                    "codename": "form"
-                }
-            ]
-        },
-        {
-            "id": "7097bcf5-8c55-4304-ba21-f30f662f111a",
-            "codename": "contact_information",
-            "last_modified": "2019-10-22T17:46:12.5840058Z",
-            "name": "Contact Information",
-            "content_groups": [],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Title",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "10ee6804-2d87-4435-8190-690c273e6639",
-                    "codename": "title"
-                },
-                {
-                    "maximum_text_length": null,
-                    "maximum_image_size": null,
-                    "allowed_content_types": [],
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "allowed_image_types": "any",
-                    "allowed_blocks": [],
-                    "name": "Decription",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "rich_text",
-                    "id": "76a4a3c7-f96c-4f59-934c-a9f1c0c4e508",
-                    "codename": "decription"
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Email",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "7e01e85c-435a-4958-8cc3-3a1a4c567a2c",
-                    "codename": "email"
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Phone",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "035d2a94-d15a-464f-bd53-410ca2bf3e37",
-                    "codename": "phone"
-                }
-            ]
-        },
-        {
-            "id": "35d3915b-b366-4e8f-8cec-a94e4a8af25d",
-            "codename": "room",
-            "last_modified": "2019-11-07T20:51:09.9953042Z",
-            "name": "Room",
-            "content_groups": [
-              {
-                "codename": "details",
-                "external_id": "details_room",
-                "name": "Details"
-              },
-              {
-                "codename": "related_items",
-                "external_id": "related_items_room",
-                "name": "Related Items"
-              },
-              {
-                "codename": "location",
-                "external_id": "location_room",
-                "name": "Location"
-              }
-            ],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Name",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "1c89bdef-8a48-477c-a433-1fc7bd39b65e",
-                    "codename": "name",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "mode": "single",
-                    "options": [
-                        {
-                            "id": "b05dfbc3-f1ef-4879-989c-70ee63d9d7b3",
-                            "codename": "n1st_floor",
-                            "name": "1st Floor"
-                        },
-                        {
-                            "id": "1c3e8a03-3cce-4a68-804e-ac1ec4201973",
-                            "codename": "n2nd_floor",
-                            "name": "2nd Floor"
-                        },
-                        {
-                            "id": "5f3d636e-7216-439b-afbf-f57a98d45a52",
-                            "codename": "n3rd_floor",
-                            "name": "3rd Floor"
-                        },
-                        {
-                            "id": "69d40d73-2fc6-4a8f-b3d6-9f89d388953f",
-                            "codename": "n4th_floor",
-                            "name": "4th Floor"
-                        },
-                        {
-                            "id": "ac8be5bf-f125-4d05-842b-e85dccfbb6d4",
-                            "codename": "n5th_floor",
-                            "name": "5th Floor"
-                        },
-                        {
-                            "id": "13e52f3d-c66c-4adc-999e-5b6edd53b140",
-                            "codename": "n38th_floor",
-                            "name": "38th Floor"
-                        }
-                    ],
-                    "name": "Floor",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "multiple_choice",
-                    "id": "26d3c32a-0ea5-4170-b471-cf6fadf9e7fa",
-                    "codename": "floor",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "name": "Number",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "number",
-                    "id": "f36c66a6-4d2a-4511-ace0-f5b287fe0d3d",
-                    "codename": "number",
-                    "content_group": {
-                        "codename": "details"
-                    }
-                },
-                {
-                    "asset_count_limit": null,
-                    "maximum_file_size": null,
-                    "allowed_file_types": "any",
-                    "image_width_limit": null,
-                    "image_height_limit": null,
-                    "name": "Map",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "asset",
-                    "id": "ca64c06b-3730-4382-ab60-463ec5225a8e",
-                    "codename": "map",
-                    "content_group": {
-                        "codename": "related_items"
-                    }
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "16bf3c2f-1a9f-43b3-8e5a-6477d21f5631"
-                        }
-                    ],
-                    "name": "Venue",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "modular_content",
-                    "id": "79702274-d7f1-476e-b408-78469e255844",
-                    "codename": "venue",
-                    "content_group": {
-                        "codename": "related_items"
-                    }
-                },
-                {
-                    "guidelines": null,
-                    "taxonomy_group": {
-                        "codename":"location"
-                    },
-                    "is_required": false,
-                    "type": "taxonomy",
-                    "id": "eb01d918-94a1-4c6a-a134-1ac6858598bb",
-                    "codename": "location",
-                    "content_group": {
-                        "codename": "location"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "f5415534-6394-49fa-8efa-37c8983dc257",
-            "codename": "youtube_video",
-            "last_modified": "2019-11-05T18:45:07.7703355Z",
-            "name": "YouTube Video",
-            "content_groups": [],
-            "elements": [
-                {
-                    "maximum_text_length": null,
-                    "name": "Video ID",
-                    "guidelines": null,
-                    "is_required": false,
-                    "type": "text",
-                    "id": "b7e3553a-e2a9-4493-bf15-13ac66f13499",
-                    "codename": "video_id"
-                }
-            ]
-        },
-        {
-            "id": "d70043a3-0e9e-486c-add4-29ca7468dc09",
-            "codename": "agenda",
-            "last_modified": "2019-11-05T18:45:16.9028038Z",
-            "name": "Agenda",
-            "content_groups": [],
-            "elements": [
-                {
-                    "guidelines": "<p>An <strong>Agenda </strong>is a collection of <strong>Agenda Items</strong> for a specific period of time at a specific location. &nbsp;<br/>\n<br/>\nExamples: a two-day conference may have a \"<em>Location </em>Day 1&nbsp;\" <strong>Agenda </strong>containing all <strong>Agenda Items</strong> for October 27th, whereas \"<em>Location </em>Day 2\" contains all <strong>Agenda Items</strong> for October 28th.</p>\n<p>A single-day conference may separate <strong>Agenda Items</strong> by \"Morning\" or \"Night\" <strong>Agendas</strong>.&nbsp;</p>",
-                    "type": "guidelines",
-                    "id": "efa80f96-c416-42da-8951-a99b5d098cd2",
-                    "codename": "efa80f96_c416_42da_8951_a99b5d098cd2"
-                },
-                {
-                    "maximum_text_length": null,
-                    "name": "Name",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "text",
-                    "id": "95211d5b-a102-4c70-acf3-824b5ff3fa21",
-                    "codename": "name"
-                },
-                {
-                    "name": "Date",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "date_time",
-                    "id": "30fcd7df-3f8c-4cc5-952c-d3fe9993fc4d",
-                    "codename": "date"
-                },
-                {
-                    "item_count_limit": null,
-                    "allowed_content_types": [
-                        {
-                            "id": "fd58918f-c2ff-4460-8f6f-fff7bac617ef"
-                        }
-                    ],
-                    "name": "Agenda Items",
-                    "guidelines": null,
-                    "is_required": true,
-                    "type": "modular_content",
-                    "id": "66a1e106-1b81-4bbc-b5ad-e7b4762a1c8c",
-                    "codename": "agenda_items"
-                },
-                {
-                    "guidelines": null,
-                    "taxonomy_group": {
-                        "codename":"location"
-                    },
-                    "is_required": false,
-                    "type": "taxonomy",
-                    "id": "41c4f4ef-cdf9-47cb-b1d0-0440b000408c",
-                    "codename": "location"
-                }
-            ]
+          "maximum_text_length": null,
+          "name": "Video ID",
+          "guidelines": null,
+          "is_required": false,
+          "type": "text",
+          "id": "b7e3553a-e2a9-4493-bf15-13ac66f13499",
+          "codename": "video_id"
         }
-    ],
+      ]
+    },
+    {
+      "id": "3ada8bba-6c9a-4479-a678-f55334500d84",
+      "codename": "tweet",
+      "last_modified": "2019-11-05T18:43:22.5318363Z",
+      "name": "Tweet",
+      "content_groups": [],
+      "elements": [
+        {
+          "maximum_text_length": null,
+          "name": "Tweet Link",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "c8242fb1-1148-41dc-9d1a-29f370a717c1",
+          "codename": "tweet_link"
+        },
+        {
+          "mode": "single",
+          "options": [
+            {
+              "id": "be78a8a6-66b1-46d1-9d59-03d2f22f2e06",
+              "codename": "dark",
+              "name": "Dark"
+            },
+            {
+              "id": "296e9efe-35b8-4aa5-a363-94e3cee94085",
+              "codename": "light",
+              "name": "Light"
+            }
+          ],
+          "name": "Theme",
+          "guidelines": null,
+          "is_required": false,
+          "type": "multiple_choice",
+          "id": "5fbdd60c-d42e-466b-a652-39af0553d88e",
+          "codename": "theme"
+        },
+        {
+          "mode": "multiple",
+          "options": [
+            {
+              "id": "e68ec962-c0f1-4800-9702-741df73bf6e9",
+              "codename": "hide_thread",
+              "name": "Hide thread"
+            },
+            {
+              "id": "3e0bc13f-efdd-4b6d-b447-03cd5a9deaa8",
+              "codename": "hide_media",
+              "name": "Hide media"
+            }
+          ],
+          "name": "Display Options",
+          "guidelines": null,
+          "is_required": false,
+          "type": "multiple_choice",
+          "id": "43b3b0af-f53b-46b2-b295-9e0497e246b2",
+          "codename": "display_options"
+        }
+      ]
+    },
+    {
+      "id": "644d09f2-3fb4-4277-9eb2-d1175eafd35d",
+      "codename": "speaker",
+      "last_modified": "2019-12-10T14:10:06.6211852Z",
+      "name": "Speaker",
+      "content_groups": [],
+      "elements": [
+        {
+          "maximum_text_length": null,
+          "name": "First Name",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "df935d9c-b833-4a07-b113-eab0918c173e",
+          "codename": "first_name"
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Last Name",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "53583fad-c691-441e-a3c4-4b6fd2cb2f05",
+          "codename": "last_name"
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Job Title",
+          "guidelines": null,
+          "is_required": false,
+          "type": "text",
+          "id": "a1ef06cb-09e3-4af5-81c7-4cb81fa6ed2f",
+          "codename": "job_title"
+        },
+        {
+          "maximum_text_length": null,
+          "maximum_image_size": null,
+          "allowed_content_types": [
+            {
+              "codename": "youtube_video"
+            },
+            {
+              "codename": "tweet"
+            }
+          ],
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "allowed_image_types": "any",
+          "allowed_blocks": [],
+          "name": "Bio",
+          "guidelines": "Tweets can be added to this field as Components.",
+          "is_required": false,
+          "type": "rich_text",
+          "id": "5decc4d8-ac98-4ae6-bba1-ddaab8046a18",
+          "codename": "bio"
+        },
+        {
+          "asset_count_limit": null,
+          "maximum_file_size": null,
+          "allowed_file_types": "any",
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "name": "Photo",
+          "guidelines": null,
+          "is_required": false,
+          "type": "asset",
+          "id": "bc66cb78-1dc2-483c-a2e7-28a1b3e5dfad",
+          "codename": "photo"
+        }
+      ]
+    },
+    {
+      "id": "16bf3c2f-1a9f-43b3-8e5a-6477d21f5631",
+      "codename": "venue",
+      "last_modified": "2019-11-05T18:45:01.5982079Z",
+      "name": "Venue",
+      "content_groups": [
+        {
+          "name": "Details",
+          "external_id": "details_venue",
+          "codename": "details"
+        },
+        {
+          "name": "Location",
+          "external_id": "location_venue",
+          "codename": "location"
+        }
+      ],
+      "elements": [
+        {
+          "maximum_text_length": null,
+          "name": "Name",
+          "guidelines": null,
+          "is_required": false,
+          "type": "text",
+          "id": "f76fece7-42ec-433a-8298-ae6124a88160",
+          "codename": "name",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "maximum_text_length": null,
+          "maximum_image_size": null,
+          "allowed_content_types": [],
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "allowed_image_types": "any",
+          "allowed_blocks": [],
+          "name": "Address",
+          "guidelines": null,
+          "is_required": false,
+          "type": "rich_text",
+          "id": "c5cbe340-12ea-401e-b965-80d41ffe3db5",
+          "codename": "address",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "asset_count_limit": null,
+          "maximum_file_size": null,
+          "allowed_file_types": "any",
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "name": "Image",
+          "guidelines": null,
+          "is_required": false,
+          "type": "asset",
+          "id": "741677b5-a92c-4538-ad8c-c6a49e221ca7",
+          "codename": "image",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "maximum_text_length": null,
+          "maximum_image_size": null,
+          "allowed_content_types": [],
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "allowed_image_types": "any",
+          "allowed_blocks": [],
+          "name": "Description",
+          "guidelines": null,
+          "is_required": false,
+          "type": "rich_text",
+          "id": "c7f809ed-7c11-4f05-abcc-61fc75aecf67",
+          "codename": "description",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Link",
+          "guidelines": null,
+          "is_required": false,
+          "type": "text",
+          "id": "e7f4988b-0c15-47f5-bb5f-3eee705a7ad5",
+          "codename": "link",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Map Source",
+          "guidelines": "The Map Source element can be found by:\n\n1. Visiting https://www.google.com/maps\n2. Clicking \"Share\"\n3. Clicking \"Embed a map\"\n4. Copying the src url of the iframe element. \n\nExample:\nhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.1175014633877!2d-71.50716438429353!3d42.95472820533111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e24bdee4a886d7%3A0x7a7f5aad94551a2b!2s15%20Constitution%20Dr%2C%20Bedford%2C%20NH%2003110!5e0!3m2!1sen!2sus!4v1584458501873!5m2!1sen!2sus",
+          "is_required": false,
+          "type": "text",
+          "id": "ca985270-da69-4577-81f4-9c36ad4e1c7c",
+          "codename": "map_source",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "guidelines": null,
+          "taxonomy_group": {
+            "codename": "location"
+          },
+          "is_required": false,
+          "type": "taxonomy",
+          "id": "246b637f-e18a-42fe-a841-c189ec3d5748",
+          "codename": "location",
+          "content_group": {
+            "codename": "location"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35d3915b-b366-4e8f-8cec-a94e4a8af25d",
+      "codename": "room",
+      "last_modified": "2019-11-07T20:51:09.9953042Z",
+      "name": "Room",
+      "content_groups": [
+        {
+          "codename": "details",
+          "external_id": "details_room",
+          "name": "Details"
+        },
+        {
+          "codename": "related_items",
+          "external_id": "related_items_room",
+          "name": "Related Items"
+        },
+        {
+          "codename": "location",
+          "external_id": "location_room",
+          "name": "Location"
+        }
+      ],
+      "elements": [
+        {
+          "maximum_text_length": null,
+          "name": "Name",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "1c89bdef-8a48-477c-a433-1fc7bd39b65e",
+          "codename": "name",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "mode": "single",
+          "options": [
+            {
+              "id": "b05dfbc3-f1ef-4879-989c-70ee63d9d7b3",
+              "codename": "n1st_floor",
+              "name": "1st Floor"
+            },
+            {
+              "id": "1c3e8a03-3cce-4a68-804e-ac1ec4201973",
+              "codename": "n2nd_floor",
+              "name": "2nd Floor"
+            },
+            {
+              "id": "5f3d636e-7216-439b-afbf-f57a98d45a52",
+              "codename": "n3rd_floor",
+              "name": "3rd Floor"
+            },
+            {
+              "id": "69d40d73-2fc6-4a8f-b3d6-9f89d388953f",
+              "codename": "n4th_floor",
+              "name": "4th Floor"
+            },
+            {
+              "id": "ac8be5bf-f125-4d05-842b-e85dccfbb6d4",
+              "codename": "n5th_floor",
+              "name": "5th Floor"
+            },
+            {
+              "id": "13e52f3d-c66c-4adc-999e-5b6edd53b140",
+              "codename": "n38th_floor",
+              "name": "38th Floor"
+            }
+          ],
+          "name": "Floor",
+          "guidelines": null,
+          "is_required": false,
+          "type": "multiple_choice",
+          "id": "26d3c32a-0ea5-4170-b471-cf6fadf9e7fa",
+          "codename": "floor",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "name": "Number",
+          "guidelines": null,
+          "is_required": false,
+          "type": "number",
+          "id": "f36c66a6-4d2a-4511-ace0-f5b287fe0d3d",
+          "codename": "number",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "asset_count_limit": null,
+          "maximum_file_size": null,
+          "allowed_file_types": "any",
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "name": "Map",
+          "guidelines": null,
+          "is_required": false,
+          "type": "asset",
+          "id": "ca64c06b-3730-4382-ab60-463ec5225a8e",
+          "codename": "map",
+          "content_group": {
+            "codename": "related_items"
+          }
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "venue"
+            }
+          ],
+          "name": "Venue",
+          "guidelines": null,
+          "is_required": false,
+          "type": "modular_content",
+          "id": "79702274-d7f1-476e-b408-78469e255844",
+          "codename": "venue",
+          "content_group": {
+            "codename": "related_items"
+          }
+        },
+        {
+          "guidelines": null,
+          "taxonomy_group": {
+            "codename": "location"
+          },
+          "is_required": false,
+          "type": "taxonomy",
+          "id": "eb01d918-94a1-4c6a-a134-1ac6858598bb",
+          "codename": "location",
+          "content_group": {
+            "codename": "location"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9c3dbec5-8316-4b42-9251-738eb8a41806",
+      "codename": "presentation",
+      "last_modified": "2019-11-05T18:35:31.3798114Z",
+      "name": "Presentation",
+      "content_groups": [],
+      "elements": [
+        {
+          "guidelines": "<p>A <strong>Presentation </strong>is the subject matter, contents, and description of an <strong>Agenda Item</strong>. &nbsp;Presentations can be re-used across multiple <strong>Agenda Items</strong> in different <strong>Agendas</strong>. &nbsp;Additionally, different <strong>Speakers </strong>can give the same presentation at different conferences.</p>",
+          "type": "guidelines",
+          "id": "a6e1e4f5-c3de-4ad0-8634-3a09f5f7ec79",
+          "codename": "a6e1e4f5_c3de_4ad0_8634_3a09f5f7ec79"
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Name",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "85a95608-d972-4744-9f25-ad0852d84c9e",
+          "codename": "name"
+        },
+        {
+          "maximum_text_length": null,
+          "maximum_image_size": null,
+          "allowed_content_types": [],
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "allowed_image_types": "any",
+          "allowed_blocks": [],
+          "name": "Description",
+          "guidelines": null,
+          "is_required": true,
+          "type": "rich_text",
+          "id": "88d90c21-78d8-415b-b16d-6c0994cc0fca",
+          "codename": "description"
+        },
+        {
+          "asset_count_limit": null,
+          "maximum_file_size": null,
+          "allowed_file_types": "any",
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "name": "Materials",
+          "guidelines": "PDFs, PowerPoint slides, and any other materials used in the presentation meant to be downloaded by the public.",
+          "is_required": false,
+          "type": "asset",
+          "id": "9780ee37-03f2-461e-a4d9-53c7eadb9b71",
+          "codename": "materials"
+        }
+      ]
+    },
+    {
+      "id": "fd58918f-c2ff-4460-8f6f-fff7bac617ef",
+      "codename": "agenda_item",
+      "last_modified": "2019-11-05T18:28:36.4589601Z",
+      "name": "Agenda Item",
+      "content_groups": [
+        {
+          "name": "Details",
+          "external_id": "details_agenda_item",
+          "codename": "details"
+        },
+        {
+          "name": "Related Items",
+          "external_id": "related_items_agenda_item",
+          "codename": "related_items"
+        },
+        {
+          "name": "Location",
+          "external_id": "location_agenda_item",
+          "codename": "location"
+        }
+      ],
+      "elements": [
+        {
+          "guidelines": "<p>An <strong>Agenda Item </strong>is a panel, presentation, talk, or event on a specific &nbsp;<strong>Agenda</strong>. &nbsp;<br/>\n <br/>\nExamples: Coffee Break, Registration, Content Modeling Workshop, Developing with MVC, etc.</p>",
+          "type": "guidelines",
+          "id": "b10bf9b0-4169-485b-9248-a95fef773b04",
+          "codename": "b10bf9b0_4169_485b_9248_a95fef773b04",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Name",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "a62e399b-bafe-4c0f-b100-80a403f804b3",
+          "codename": "name",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "name": "Start Time",
+          "guidelines": null,
+          "is_required": true,
+          "type": "date_time",
+          "id": "a7a55074-e862-4844-85d4-dee76753207c",
+          "codename": "start_time",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "name": "End Time",
+          "guidelines": null,
+          "is_required": true,
+          "type": "date_time",
+          "id": "40c291b3-0b40-43a5-bcd4-4b2c5b623687",
+          "codename": "end_time",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "room"
+            }
+          ],
+          "name": "Room",
+          "guidelines": null,
+          "is_required": false,
+          "type": "modular_content",
+          "id": "10e34802-9e32-4a51-a89f-868973a6204b",
+          "codename": "room",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "speaker"
+            }
+          ],
+          "name": "Speakers",
+          "guidelines": null,
+          "is_required": false,
+          "type": "modular_content",
+          "id": "806d5769-3f31-47c6-a201-7fb4131870b1",
+          "codename": "speakers",
+          "content_group": {
+            "codename": "related_items"
+          }
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "presentation"
+            }
+          ],
+          "name": "Presentation",
+          "guidelines": "Presentations are not specific to Agenda Items and can be used across different Agenda Items on different Agendas.\n\nPresentations may not be applicable to agenda items like \"Coffee Break.\"",
+          "is_required": false,
+          "type": "modular_content",
+          "id": "2b921079-be04-4513-a5c7-608316df9e4a",
+          "codename": "presentation",
+          "content_group": {
+            "codename": "related_items"
+          }
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "youtube_video"
+            }
+          ],
+          "name": "Recording",
+          "guidelines": "YouTube is the only supported format currently.",
+          "is_required": false,
+          "type": "modular_content",
+          "id": "4bc5fd19-a704-4631-837b-9737405be844",
+          "codename": "recording",
+          "content_group": {
+            "codename": "related_items"
+          }
+        },
+        {
+          "depends_on": {
+            "element": {
+              "codename": "name"
+            }
+          },
+          "name": "Url Slug",
+          "guidelines": null,
+          "is_required": true,
+          "type": "url_slug",
+          "id": "94ee942f-f633-421b-8c9e-0c66cec816d1",
+          "codename": "url_slug",
+          "content_group": {
+            "codename": "related_items"
+          }
+        },
+        {
+          "guidelines": null,
+          "taxonomy_group": {
+            "codename": "location"
+          },
+          "is_required": true,
+          "type": "taxonomy",
+          "id": "63188721-0cf6-477d-baff-34b3c6825e27",
+          "codename": "location",
+          "content_group": {
+            "codename": "location"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d70043a3-0e9e-486c-add4-29ca7468dc09",
+      "codename": "agenda",
+      "last_modified": "2019-11-05T18:45:16.9028038Z",
+      "name": "Agenda",
+      "content_groups": [],
+      "elements": [
+        {
+          "guidelines": "<p>An <strong>Agenda </strong>is a collection of <strong>Agenda Items</strong> for a specific period of time at a specific location. &nbsp;<br/>\n<br/>\nExamples: a two-day conference may have a \"<em>Location </em>Day 1&nbsp;\" <strong>Agenda </strong>containing all <strong>Agenda Items</strong> for October 27th, whereas \"<em>Location </em>Day 2\" contains all <strong>Agenda Items</strong> for October 28th.</p>\n<p>A single-day conference may separate <strong>Agenda Items</strong> by \"Morning\" or \"Night\" <strong>Agendas</strong>.&nbsp;</p>",
+          "type": "guidelines",
+          "id": "efa80f96-c416-42da-8951-a99b5d098cd2",
+          "codename": "efa80f96_c416_42da_8951_a99b5d098cd2"
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Name",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "95211d5b-a102-4c70-acf3-824b5ff3fa21",
+          "codename": "name"
+        },
+        {
+          "name": "Date",
+          "guidelines": null,
+          "is_required": true,
+          "type": "date_time",
+          "id": "30fcd7df-3f8c-4cc5-952c-d3fe9993fc4d",
+          "codename": "date"
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "agenda_item"
+            }
+          ],
+          "name": "Agenda Items",
+          "guidelines": null,
+          "is_required": true,
+          "type": "modular_content",
+          "id": "66a1e106-1b81-4bbc-b5ad-e7b4762a1c8c",
+          "codename": "agenda_items"
+        },
+        {
+          "guidelines": null,
+          "taxonomy_group": {
+            "codename": "location"
+          },
+          "is_required": true,
+          "type": "taxonomy",
+          "id": "41c4f4ef-cdf9-47cb-b1d0-0440b000408c",
+          "codename": "location"
+        }
+      ]
+    },
+    {
+      "id": "eb1f47ad-6746-4c72-bbd8-04af8c2f827e",
+      "codename": "ticket",
+      "last_modified": "2020-01-15T14:42:48.6681044Z",
+      "name": "Ticket",
+      "content_groups": [],
+      "elements": [
+        {
+          "maximum_text_length": null,
+          "name": "Name",
+          "guidelines": "Testing guidelines for migration purposes.\nA\nb\nc",
+          "is_required": true,
+          "type": "text",
+          "id": "f5132dee-b971-43ab-b044-bae072700f82",
+          "codename": "name"
+        },
+        {
+          "maximum_text_length": null,
+          "maximum_image_size": null,
+          "allowed_content_types": [],
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "allowed_image_types": "any",
+          "allowed_blocks": [],
+          "name": "Description",
+          "guidelines": null,
+          "is_required": true,
+          "type": "rich_text",
+          "id": "32e9ea59-503b-40d1-8077-9ca603f19dca",
+          "codename": "description"
+        },
+        {
+          "name": "Price",
+          "guidelines": null,
+          "is_required": true,
+          "type": "number",
+          "id": "52238d38-2eb5-4ae4-8541-d7a20949a675",
+          "codename": "price"
+        }
+      ]
+    },
+    {
+      "id": "a4b8eb8c-ee33-44b4-98c1-e845d3abb77c",
+      "codename": "hubspot_form",
+      "last_modified": "2019-11-14T00:25:20.1873645Z",
+      "name": "Hubspot Form",
+      "content_groups": [],
+      "elements": [
+        {
+          "maximum_text_length": null,
+          "name": "Portal ID",
+          "guidelines": null,
+          "is_required": false,
+          "type": "text",
+          "id": "b0321430-0fed-41a4-815f-35cc7082bb53",
+          "codename": "portal_id"
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Form ID",
+          "guidelines": null,
+          "is_required": false,
+          "type": "text",
+          "id": "32aac576-fe92-4247-9aee-8ec8a1309b93",
+          "codename": "form_id"
+        }
+      ]
+    },
+    {
+      "id": "60a70eae-c57b-42bc-8fc4-8b1ce3775fe9",
+      "codename": "sponsor",
+      "last_modified": "2019-11-05T18:43:06.9827693Z",
+      "name": "Sponsor",
+      "content_groups": [],
+      "elements": [
+        {
+          "maximum_text_length": null,
+          "name": "Name",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "196258b0-9845-451d-8a2d-2777854ca1b9",
+          "codename": "name"
+        },
+        {
+          "asset_count_limit": null,
+          "maximum_file_size": null,
+          "allowed_file_types": "any",
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "name": "Logo",
+          "guidelines": null,
+          "is_required": true,
+          "type": "asset",
+          "id": "8c94f8ea-a19b-4bd7-887a-ad512ee75dfb",
+          "codename": "logo"
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Website",
+          "guidelines": null,
+          "is_required": true,
+          "type": "text",
+          "id": "00d1fad2-da25-49e6-afee-6e65d42430a7",
+          "codename": "website"
+        },
+        {
+          "maximum_text_length": null,
+          "maximum_image_size": null,
+          "allowed_content_types": [],
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "allowed_image_types": "any",
+          "allowed_blocks": [],
+          "name": "Description",
+          "guidelines": null,
+          "is_required": false,
+          "type": "rich_text",
+          "id": "4fdc77cd-8f29-43d1-aed9-6afe90b70fd7",
+          "codename": "description"
+        }
+      ]
+    },
+    {
+      "id": "2de41713-6289-4376-9edb-825c71b61a33",
+      "codename": "home",
+      "last_modified": "2019-11-19T17:53:34.0513969Z",
+      "name": "Home",
+      "content_groups": [
+        {
+          "name": "Content",
+          "external_id": "content_home",
+          "codename": "content"
+        },
+        {
+          "name": "Related Items",
+          "external_id": "related_items_home",
+          "codename": "related_items"
+        },
+        {
+          "name": "Location",
+          "external_id": "location_home",
+          "codename": "location"
+        }
+      ],
+      "elements": [
+        {
+          "asset_count_limit": {
+            "value": 1,
+            "condition": "exactly"
+          },
+          "maximum_file_size": null,
+          "allowed_file_types": "any",
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "name": "Banner Image",
+          "guidelines": null,
+          "is_required": true,
+          "type": "asset",
+          "id": "bf7b3228-f7b2-466d-ade6-4721d51c4bb4",
+          "codename": "banner_image",
+          "content_group": {
+            "codename": "content"
+          }
+        },
+        {
+          "maximum_text_length": null,
+          "name": "Banner Text",
+          "guidelines": "Name of the conference",
+          "is_required": false,
+          "type": "text",
+          "id": "4dec2a43-8164-40a5-a8b7-11d25ee3d67a",
+          "codename": "banner_text",
+          "content_group": {
+            "codename": "content"
+          }
+        },
+        {
+          "name": "Start Date",
+          "guidelines": null,
+          "is_required": true,
+          "type": "date_time",
+          "id": "e3967592-1417-438f-b816-93eb1a79e911",
+          "codename": "start_date",
+          "content_group": {
+            "codename": "content"
+          }
+        },
+        {
+          "name": "End Date",
+          "guidelines": null,
+          "is_required": true,
+          "type": "date_time",
+          "id": "917e35be-abb4-4e0e-9112-a5fa6ba8ff32",
+          "codename": "end_date",
+          "content_group": {
+            "codename": "content"
+          }
+        },
+        {
+          "maximum_text_length": null,
+          "maximum_image_size": null,
+          "allowed_content_types": [],
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "allowed_image_types": "any",
+          "allowed_blocks": [],
+          "name": "Description",
+          "guidelines": "Optional description about the purpose of the conference.",
+          "is_required": false,
+          "type": "rich_text",
+          "id": "bc8a5f52-ffbe-4d57-ac70-242a5b4bcc30",
+          "codename": "description",
+          "content_group": {
+            "codename": "content"
+          }
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "venue"
+            }
+          ],
+          "name": "Venue",
+          "guidelines": "Conferences can be held in multiple venues.",
+          "is_required": true,
+          "type": "modular_content",
+          "id": "cbf66278-c537-457c-8411-61658b187cb3",
+          "codename": "venue",
+          "content_group": {
+            "codename": "related_items"
+          }
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "sponsor"
+            }
+          ],
+          "name": "Sponsors",
+          "guidelines": null,
+          "is_required": false,
+          "type": "modular_content",
+          "id": "43632d05-320a-405e-8b43-a00554e01f53",
+          "codename": "sponsors",
+          "content_group": {
+            "codename": "related_items"
+          }
+        },
+        {
+          "guidelines": "When Home items exist for different locations, a landing page will provide users the option to choose the location they are interested in.",
+          "taxonomy_group": {
+            "codename": "location"
+          },
+          "is_required": true,
+          "type": "taxonomy",
+          "id": "db9418a2-0bad-4914-8a96-279d79bc8bde",
+          "codename": "location",
+          "content_group": {
+            "codename": "location"
+          }
+        }
+      ]
+    },
+    {
+      "id": "09aefd2f-2dd7-4a56-82e2-b3b1f35b035b",
+      "codename": "agenda_block",
+      "last_modified": "2019-11-05T18:39:01.0323616Z",
+      "name": "Agenda Block",
+      "content_groups": [
+        {
+          "name": "Details",
+          "external_id": "details_agenda_block",
+          "codename": "details"
+        },
+        {
+          "name": "Location",
+          "external_id": "location_agenda_block",
+          "codename": "location"
+        }
+      ],
+      "elements": [
+        {
+          "guidelines": "<p>An <strong>Agenda Block </strong>is the total collection of <strong>Agendas</strong> for a conference. &nbsp;<br/>\n <br/>\nExamples: a two-day conference may have an <strong>Agenda Block</strong> containing \"<em>Location </em>Day 1&nbsp;\" and \"<em>Location </em>Day 2&nbsp;\" <strong>Agendas.</strong></p>\n<p>A single-day conference may have an <strong>Agenda Block</strong> containing \"Morning\" or \"Night\" <strong>Agendas</strong>.&nbsp;</p>",
+          "type": "guidelines",
+          "id": "549451c9-13d8-47ac-bc90-25dfa738bc29",
+          "codename": "n549451c9_13d8_47ac_bc90_25dfa738bc29",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "agenda"
+            }
+          ],
+          "name": "Agendas",
+          "guidelines": null,
+          "is_required": true,
+          "type": "modular_content",
+          "id": "65225f19-2138-4cff-98ae-276e87379e34",
+          "codename": "agendas",
+          "content_group": {
+            "codename": "details"
+          }
+        },
+        {
+          "guidelines": null,
+          "taxonomy_group": {
+            "codename": "location"
+          },
+          "is_required": true,
+          "type": "taxonomy",
+          "id": "b0192966-77dc-44bc-bf15-f8f1667fb997",
+          "codename": "location",
+          "content_group": {
+            "codename": "location"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6355c1f9-d2a5-4310-a822-4fd972251423",
+      "codename": "registration",
+      "last_modified": "2019-11-14T13:11:34.8535072Z",
+      "name": "Registration",
+      "content_groups": [],
+      "elements": [
+        {
+          "maximum_text_length": null,
+          "name": "Title",
+          "guidelines": null,
+          "is_required": false,
+          "type": "text",
+          "id": "f7019fba-9481-4ca7-9a66-cae319308d33",
+          "codename": "title"
+        },
+        {
+          "maximum_text_length": null,
+          "maximum_image_size": null,
+          "allowed_content_types": [],
+          "image_width_limit": null,
+          "image_height_limit": null,
+          "allowed_image_types": "any",
+          "allowed_blocks": [],
+          "name": "Description",
+          "guidelines": null,
+          "is_required": false,
+          "type": "rich_text",
+          "id": "f884e275-4dbf-49dd-bba9-184833de6688",
+          "codename": "description"
+        },
+        {
+          "item_count_limit": {
+            "value": 1,
+            "condition": "at_least"
+          },
+          "allowed_content_types": [
+            {
+              "codename": "ticket"
+            }
+          ],
+          "name": "Tickets",
+          "guidelines": "If an event does not require tickets, create a Ticket content item notifying visitors that the conference is free.",
+          "is_required": true,
+          "type": "modular_content",
+          "id": "a07fb743-bf61-46b9-adea-5440a874fe46",
+          "codename": "tickets"
+        },
+        {
+          "item_count_limit": null,
+          "allowed_content_types": [
+            {
+              "codename": "hubspot_form"
+            }
+          ],
+          "name": "Form",
+          "guidelines": null,
+          "is_required": false,
+          "type": "modular_content",
+          "id": "e1a3ccab-f2ee-48c8-9fbf-848c4b392fea",
+          "codename": "form"
+        }
+      ]
+    }
+  ],
     "pagination": {
         "continuation_token": null,
         "next_page": null

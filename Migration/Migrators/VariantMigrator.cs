@@ -1,7 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
 using Konference.Models;
-using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using Konference.Interfaces;
@@ -10,7 +9,7 @@ namespace Konference
 {
     class VariantMigrator : Migrator, IMigrator
     {
-        public VariantMigrator(string projectId, string apiKey) : base(projectId, apiKey)
+        public VariantMigrator(MigrationClient client) : base(client)
         {
         }
 
@@ -20,7 +19,7 @@ namespace Konference
             await SetLanguageVariants(languageVariants);
         }
 
-        public LanguageVariants GetLanguageVariants()
+        private LanguageVariants GetLanguageVariants()
         {
             string variantsJson = GetJsonResource("Jsons.Variants.json");
             LanguageVariants languageVariants = JsonConvert.DeserializeObject<LanguageVariants>(variantsJson);
@@ -28,106 +27,94 @@ namespace Konference
             return languageVariants;
         }
 
-        public async Task SetLanguageVariants(LanguageVariants languageVariants)
+        private async Task SetLanguageVariants(LanguageVariants languageVariants)
         {
-            using (WebClient client = new WebClient())
+            foreach (Variant variant in languageVariants.Variants)
             {
-                client.Headers.Add("Authorization", "Bearer " + ApiKey);
-                client.Headers.Add("Content-type", "application/json");
+                string endpoint = "/items/codename/" + variant.Item.Codename + "/variants/codename/default";
 
-                foreach (Variant variant in languageVariants.Variants)
+                try
                 {
-                    Uri endpoint = new Uri(BaseEndpoint + "/items/codename/" + variant.Item.Codename + "/variants/codename/default");
+                    string jsonBody = JsonConvert.SerializeObject(variant);
 
-                    try
+                    await PublishLanguageVariant(variant.Item.Codename, false);
+                    await MigrationClient.SendRequestToEndpoint(endpoint, "PUT", jsonBody);
+                    await PublishLanguageVariant(variant.Item.Codename, true);
+
+                    Console.WriteLine("Language variant for '" + variant.Item.Codename + "' upserted.");
+                }
+                catch (WebException ex)
+                {
+                    string errorMessage = ex.Message;
+                    Error error = JsonConvert.DeserializeObject<Error>(errorMessage);
+
+                    if (error.ErrorCode == 103 || error.ErrorCode == 213)
                     {
-                        await PublishLanguageVariant(variant.Item.Codename, false);
-                        string jsonBody = JsonConvert.SerializeObject(variant);
-                        string response = await client.UploadStringTaskAsync(endpoint, "PUT", jsonBody);
-                        Console.WriteLine("Language variant for '" + variant.Item.Codename + "' upserted.");
-                        await PublishLanguageVariant(variant.Item.Codename, true);
-                    }
-                    catch (WebException ex)
-                    {
-                        using (var stream = ex.Response.GetResponseStream())
-                        using (var reader = new StreamReader(stream))
+                        try
                         {
-                            string errorStream = reader.ReadToEnd();
-                            Error error = JsonConvert.DeserializeObject<Error>(errorStream);
+                            string jsonBody = JsonConvert.SerializeObject(variant);
 
-                            if (error.ErrorCode == 103 || error.ErrorCode == 213)
-                            {
-                                try
-                                {
-                                    string jsonBody = JsonConvert.SerializeObject(variant);
-                                    string response = await client.UploadStringTaskAsync(endpoint, "PUT", jsonBody);
-                                    Console.WriteLine("Language variant for '" + variant.Item.Codename + "' upserted.");
-                                    await PublishLanguageVariant(variant.Item.Codename, true);
-                                    continue;
-                                }
+                            await MigrationClient.SendRequestToEndpoint(endpoint, "PUT", jsonBody);
+                            await PublishLanguageVariant(variant.Item.Codename, true);
 
-                                catch (WebException wex)
-                                {
-                                    using (var stream2 = wex.Response.GetResponseStream())
-                                    using (var reader2 = new StreamReader(stream))
-                                    {
-                                        errorStream = reader2.ReadToEnd();
-                                        error = JsonConvert.DeserializeObject<Error>(errorStream);
-                                    }
-                                    if (error.ValidationErrors != null)
-                                    {
-                                        foreach (ValidationError validationError in error.ValidationErrors)
-                                        {
-                                            Console.WriteLine("Variant not upserted for item: " + variant.Item.Codename + " Error: " + validationError.Message);
-                                            continue;
-                                        }
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine("Variant not upserted for item: " + variant.Item.Codename + " Error: " + error.Message);
-                                        continue;
-                                    }
-                                }
-                            }
+                            Console.WriteLine("Language variant for '" + variant.Item.Codename + "' upserted.");
+                            continue;
+                        }
 
-                            if (error.ValidationErrors != null)
+                        catch (WebException wex)
+                        {
+                            errorMessage = wex.Message;
+                            error = JsonConvert.DeserializeObject<Error>(errorMessage);
+                        }
+                        if (error.ValidationErrors != null)
+                        {
+                            foreach (ValidationError validationError in error.ValidationErrors)
                             {
-                                foreach (ValidationError validationError in error.ValidationErrors)
-                                {
-                                    Console.WriteLine("Variant not upserted for item: "+ variant.Item.Codename + " Error: " + validationError.Message);
-                                }
-                            }
-                            else
-                            {
-                                Console.WriteLine("Variant not upserted for item: " + variant.Item.Codename + " Error: " + error.Message);
+                                Console.WriteLine("Variant not upserted for item: " + variant.Item.Codename + " Error: " + validationError.Message);
+                                continue;
                             }
                         }
+                        else
+                        {
+                            Console.WriteLine("Variant not upserted for item: " + variant.Item.Codename + " Error: " + error.Message);
+                            continue;
+                        }
                     }
-                    catch (Exception ex)
+
+                    if (error.ValidationErrors != null)
                     {
-                        ErrorFlag = true;
-                        Console.WriteLine(ex.Message);
+                        foreach (ValidationError validationError in error.ValidationErrors)
+                        {
+                            Console.WriteLine("Variant not upserted for item: "+ variant.Item.Codename + " Error: " + validationError.Message);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Variant not upserted for item: " + variant.Item.Codename + " Error: " + error.Message);
                     }
                 }
-                if (ErrorFlag)
+                catch (Exception ex)
                 {
-                    Console.WriteLine("\nErrors encountered during variant upsertion, some variants may not have been upserted.\n");
+                    ErrorFlag = true;
+                    Console.WriteLine(ex.Message);
                 }
-                else
-                {
-                    Console.WriteLine("\nAll variants upserted successfully.\n");
-                }
+            }
+            if (ErrorFlag)
+            {
+                Console.WriteLine("\nErrors encountered during variant upsertion, some variants may not have been upserted.\n");
+            }
+            else
+            {
+                Console.WriteLine("\nAll variants upserted successfully.\n");
             }
         }
 
-        public async Task<string> PublishLanguageVariant(string codename, bool publish)
+        private async Task PublishLanguageVariant(string codename, bool publish)
         {
             string changeState = publish ? "publish" : "unpublish";
-            using (WebClient client = new WebClient())
             {
-                Uri endpoint = new Uri(BaseEndpoint + "/items/codename/" + codename + "/variants/codename/default/" + changeState);
-                client.Headers.Add("Authorization", "Bearer " + ApiKey);
-                return await client.UploadStringTaskAsync(endpoint, "PUT", "");
+                string endpoint = "/items/codename/" + codename + "/variants/codename/default/" + changeState;
+                await MigrationClient.SendRequestToEndpoint(endpoint, "PUT", "");
             }
         }
     }

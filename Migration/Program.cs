@@ -1,32 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using Konference.Models;
 using Konference.Interfaces;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using System.Reflection;
 
 namespace Konference
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static IConfiguration _config;
+        static async Task Main()
         {
+
             await Init();
             Console.WriteLine("Migration finished.");
-            Console.Read();
         }
 
         static async Task Init()
         {
-            Console.WriteLine("Enter project ID of your target project:");
-            string projectId = Console.ReadLine();
-            Console.WriteLine("Enter CM API key of the target project:");
-            string apiKey = Console.ReadLine();
+            _config = new ConfigurationBuilder()
+                .AddJsonStream(Assembly.GetExecutingAssembly().GetManifestResourceStream("Konference.Config.json"))
+                .Build();
+
+            MigrationClient client = new MigrationClient(_config["apiKey"], _config["projectId"]);
 
             Console.WriteLine("\nChoose project type:\n");
             Console.WriteLine("(f)ull -- includes all items and their published variants");
-            Console.WriteLine("(m)inimal -- only includes content types, assets and taxonomies, no items");
+            Console.WriteLine("(m)inimal -- only includes content types and an empty taxonomy");
             Console.Write("\nType (f/m): ");
 
             string projectType = Console.ReadLine();
@@ -34,28 +34,29 @@ namespace Konference
             switch (projectType)
             {
                 case "f":
-                    await MigrateFull(projectId, apiKey);
+                    Console.WriteLine("\nFull migration chosen.\n");
+                    await MigrateFull(client);
                     break;
                 case "m":
-                    await MigrateMin(projectId, apiKey);
+                    Console.WriteLine("Minimal migration chosen.\n");
+                    await MigrateMin(client);
                     break;
                 default:
-                    await MigrateFull(projectId, apiKey);
+                    Console.WriteLine("Invalid input, defaulting to full migration.");
+                    await MigrateFull(client);
                     break;
             }        
         }
 
-        static async Task MigrateFull(string projectId, string apiKey)
+        static async Task MigrateFull(MigrationClient client)
         {
-            Console.WriteLine("\nFull migration chosen.\n");
-
             IMigrator[] migrators =
             {
-                new AssetMigrator(projectId, apiKey),
-                new TaxonomyMigrator(projectId, apiKey),
-                new TypeMigrator(projectId, apiKey),
-                new ItemMigrator(projectId, apiKey),
-                new VariantMigrator(projectId, apiKey)
+                new AssetMigrator(client),
+                new TaxonomyMigrator(client, false),
+                new TypeMigrator(client),
+                new ItemMigrator(client),
+                new VariantMigrator(client)
             };
 
             foreach (IMigrator migrator in migrators)
@@ -64,15 +65,12 @@ namespace Konference
             }
         }
 
-        static async Task MigrateMin(string projectId, string apiKey)
+        static async Task MigrateMin(MigrationClient client)
         {
-            Console.WriteLine("Minimal migration chosen.\n");
-
             IMigrator[] migrators =
-{
-                new AssetMigrator(projectId, apiKey),
-                new TaxonomyMigrator(projectId, apiKey),
-                new TypeMigrator(projectId, apiKey),
+            {
+                new TaxonomyMigrator(client, true),
+                new TypeMigrator(client)
             };
 
             foreach (IMigrator migrator in migrators)

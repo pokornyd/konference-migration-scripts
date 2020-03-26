@@ -5,23 +5,16 @@ namespace Konference
 {
     class Migrator
     {
-        public string ProjectId { get; set; }
-        public string ApiKey { get; set; }
-        public string BaseEndpoint 
-        { 
-            get
-            {
-                return "https://manage.kontent.ai/v2/projects/" + ProjectId;
-            }
-        }
-        public bool ErrorFlag { get; set; } = false;
-        public Migrator(string projectId, string apiKey)
+        public Migrator(MigrationClient client) 
         {
-            ProjectId = projectId;
-            ApiKey = apiKey;
+            MigrationClient = client;
         }
 
-        public string GetJsonResource(string resource)
+        protected MigrationClient MigrationClient { get; private set; }
+
+        protected bool ErrorFlag { get; set; } = false;
+
+        protected string GetJsonResource(string resource)
         {
             var textStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Konference." + resource);
             string json = new StreamReader(textStream).ReadToEnd();
@@ -30,3 +23,4 @@ namespace Konference
         }
     }
 }
+ 
