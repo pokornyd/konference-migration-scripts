@@ -130,16 +130,25 @@
   <data name="DenverVenue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Images\DenverVenue.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="KenticoLogotype" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Images\KenticoLogotype.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="MelbourneSplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Images\MelbourneSplash.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MelbourneVenue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Images\MelbourneVenue.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="SpeakerIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="speaker_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Images\SpeakerIcon.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sponsor_404" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sponsor_404.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sponsor_kentico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Images\KenticoLogotype.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sponsor_kontent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sponsor_kontent.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sponsor_soty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sponsor_soty.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

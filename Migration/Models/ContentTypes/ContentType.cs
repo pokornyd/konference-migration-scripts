@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace Konference.Models
 {
@@ -46,8 +43,8 @@ namespace Konference.Models
         public Options[] Options { get; set; }
         [JsonProperty("external_id")]
         public string ExternalId { get; set; }
-        [JsonProperty("allowed_elements")]
-        public AllowedElements[] AllowedElements { get; set; }
+        [JsonProperty("allowed_content_types")]
+        public AllowedTypes[] AllowedTypes { get; set; }
         [JsonProperty("source_url")]
         public string SourceUrl { get; set; }
         [JsonProperty("content_group")]
@@ -91,7 +88,7 @@ namespace Konference.Models
         public string Name { get; set; }
     }
 
-    class AllowedElements
+    class AllowedTypes
     {
         [JsonProperty("codename")]
         public string Codename { get; set; }

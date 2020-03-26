@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Konference.Models
+﻿namespace Konference.Models
 {
-    class AssetBinary
+    public class AssetBinary
     {
         public string FileName { get; set; }
         public int ContentLength { get; set; }

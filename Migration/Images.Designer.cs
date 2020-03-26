@@ -103,16 +103,6 @@ namespace Konference {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] KenticoLogotype {
-            get {
-                object obj = ResourceManager.GetObject("KenticoLogotype", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
         internal static byte[] MelbourneSplash {
             get {
                 object obj = ResourceManager.GetObject("MelbourneSplash", resourceCulture);
@@ -133,9 +123,49 @@ namespace Konference {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] SpeakerIcon {
+        internal static byte[] speaker_icon {
             get {
-                object obj = ResourceManager.GetObject("SpeakerIcon", resourceCulture);
+                object obj = ResourceManager.GetObject("speaker_icon", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] sponsor_404 {
+            get {
+                object obj = ResourceManager.GetObject("sponsor_404", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] sponsor_kentico {
+            get {
+                object obj = ResourceManager.GetObject("sponsor_kentico", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] sponsor_kontent {
+            get {
+                object obj = ResourceManager.GetObject("sponsor_kontent", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] sponsor_soty {
+            get {
+                object obj = ResourceManager.GetObject("sponsor_soty", resourceCulture);
                 return ((byte[])(obj));
             }
         }
